@@ -1,0 +1,269 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <GridLayout
+    android:id="@id/grid1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="1"
+    android:columnCount="2">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card1"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="225dp"
+                android:padding="3dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#8C1717"
+                    android:text="Laser Trap "
+                    android:textColor="#ffffff"
+                    android:id="@+id/title1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/poster1"
+                    android:src="@drawable/laser"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card2"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:padding="3dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#8C1717"
+                android:text="Spell Bee"
+                android:textColor="#ffffff"
+                android:id="@+id/title2" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/poster2"
+                android:src="@drawable/spell"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</GridLayout>
+           <GridLayout
+               android:id="@id/grid2"
+               android:layout_below="@id/grid1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:rowCount="1"
+               android:columnCount="2">
+
+               <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                   android:id="@+id/card3"
+                   android:layout_width="180dp"
+                   android:layout_height="200dp"
+                   card_view:cardBackgroundColor="@android:color/white"
+                   card_view:cardCornerRadius="4dp"
+                   card_view:cardElevation="10dp"
+                   card_view:cardUseCompatPadding="true">
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="225dp"
+                       android:padding="3dp">
+
+                       <Button
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp"
+                           android:background="#8C1717"
+                           android:text="Sketch Up"
+                           android:textColor="#ffffff"
+                           android:id="@+id/title3" />
+
+                       <ImageView
+                           android:layout_width="75dp"
+                           android:layout_height="75dp"
+                           android:id="@+id/poster3"
+                           android:src="@drawable/sketch"
+                           android:layout_centerVertical="true"
+                           android:layout_centerHorizontal="true" />
+
+
+                   </RelativeLayout>
+
+
+               </android.support.v7.widget.CardView>
+
+
+               <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                   android:id="@+id/card4"
+                   android:layout_width="180dp"
+                   android:layout_height="200dp"
+                   card_view:cardBackgroundColor="@android:color/white"
+                   card_view:cardCornerRadius="4dp"
+                   card_view:cardElevation="10dp"
+                   card_view:cardUseCompatPadding="true">
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="225dp"
+                       android:padding="3dp">
+
+                       <Button
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp"
+                           android:background="#8C1717"
+                           android:text="Anurag Got Talent"
+                           android:textColor="#ffffff"
+                           android:id="@+id/title4" />
+
+                       <ImageView
+                           android:layout_width="75dp"
+                           android:layout_height="75dp"
+                           android:id="@+id/poster4"
+                           android:src="@drawable/show"
+                           android:layout_centerVertical="true"
+                           android:layout_centerHorizontal="true" />
+
+
+                   </RelativeLayout>
+
+
+               </android.support.v7.widget.CardView>
+           </GridLayout>
+
+
+
+           <GridLayout
+               android:layout_below="@+id/grid2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:rowCount="1"
+               android:columnCount="2"
+               android:id="@+id/grid3">
+
+           <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/card5"
+               android:layout_width="180dp"
+               android:layout_height="200dp"
+               card_view:cardBackgroundColor="@android:color/white"
+               card_view:cardCornerRadius="4dp"
+               card_view:cardElevation="10dp"
+               card_view:cardUseCompatPadding="true">
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="225dp"
+                   android:padding="3dp">
+
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="50dp"
+                       android:background="#8C1717"
+                       android:text="Lan Gaming"
+                       android:textColor="#ffffff"
+                       android:id="@+id/title5" />
+
+                   <ImageView
+                       android:layout_width="75dp"
+                       android:layout_height="75dp"
+                       android:id="@+id/poster5"
+                       android:src="@drawable/game1"
+                       android:layout_centerVertical="true"
+                       android:layout_centerHorizontal="true" />
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+               <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                   android:id="@+id/card6"
+                   android:layout_width="180dp"
+                   android:layout_height="200dp"
+                   card_view:cardBackgroundColor="@android:color/white"
+                   card_view:cardCornerRadius="4dp"
+                   card_view:cardElevation="10dp"
+                   card_view:cardUseCompatPadding="true">
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="225dp"
+                       android:padding="3dp">
+
+                       <Button
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp"
+                           android:background="#8C1717"
+                           android:text="Innovatia"
+                           android:textColor="#ffffff"
+                           android:id="@+id/title6" />
+
+                       <ImageView
+                           android:layout_width="75dp"
+                           android:layout_height="75dp"
+                           android:id="@+id/poster6"
+                           android:src="@drawable/idea"
+                           android:layout_centerVertical="true"
+                           android:layout_centerHorizontal="true" />
+
+
+                   </RelativeLayout>
+
+
+               </android.support.v7.widget.CardView>
+
+               </GridLayout>
+
+
+
+
+
+       </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

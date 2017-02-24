@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "868720830586",
+    "firebase_url": "https://application-bc3a7.firebaseio.com",
+    "project_id": "application-bc3a7",
+    "storage_bucket": "application-bc3a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868720830586:android:a76d5e48fe4af364",
+        "android_client_info": {
+          "package_name": "com.cvsr.admin.aagama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868720830586-28rnf0ea2irplojaodt9ebc4j43j3tkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0t0FKNPqk5KzZ35HcwJQMhm0TJSVAvOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
