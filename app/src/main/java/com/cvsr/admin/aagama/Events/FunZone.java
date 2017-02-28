@@ -22,9 +22,9 @@ public class FunZone extends Fragment {
         Drawable d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27;
     String  s1[]={"Virtual\nTyping","Blank\nCode","Brain\nBlogger",
                   "Textathon","Ideation","Dumb Shell\nElectronics",
-                  "Treasure\nHunt","Dubsmash","Minute to\nwin",
-                  "cyber chase","Tech Treasure\nHunt","selfie story",
-                  "Scary house","Dumb\nCharades","Halloween",
+                  "Dubsmash","Minute to\nwin it","Treasure\nHunt",
+                  "cyber chase","Tech Treasure\nHunt","selfie story","Dumb\nCharades",
+                  "Scary house","Halloween",
                   "Tug Of\nWar","Arm\nWrestling","Pie face\nchallenge",
                   "Ram And\nRom","Cinemania","Puzzle"};
 
@@ -76,7 +76,7 @@ public class FunZone extends Fragment {
             d15=getResources().getDrawable(R.drawable.halloween);
             d16=getResources().getDrawable(R.drawable.tug);
             d17=getResources().getDrawable(R.drawable.arm);
-            d18=getResources().getDrawable(R.drawable.hand);
+            d18=getResources().getDrawable(R.mipmap.face);
             d19=getResources().getDrawable(R.drawable.ram);
             d20=getResources().getDrawable(R.drawable.cinemania);
             d21=getResources().getDrawable(R.drawable.puzzle);
