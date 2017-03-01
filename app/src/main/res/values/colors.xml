@@ -5,10 +5,10 @@
     <color name="colorAccent">#00bff3</color>
     
     <color name="colorwhite">#FCFFF5</color>
-    <color name="kulerwhite">#D1DBBD</color>
-    <color name="kulerlblue">#b01111</color>
+    <color name="kulerwhite">#222222</color>
+    <color name="kulerlblue">#009688</color>
     <color name="kulerllblue">#3E606F</color>
-    <color name="kulerblue">#193441</color>
+    <color name="kulerblue">#153936</color>
     
 
 </resources>

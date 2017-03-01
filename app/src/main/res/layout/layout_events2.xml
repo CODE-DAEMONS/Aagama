@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/viewpager"
         android:layout_below="@+id/tablayout"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#222222" />
 
 
 
