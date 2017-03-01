@@ -23,6 +23,7 @@ public class CardAdapter_4 extends RecyclerView.Adapter<CardAdapter_4.ViewHolder
 
    public CardAdapter_4() {
        super();
+
        mItems = new ArrayList<CardSetterGetter>();
        CardSetterGetter cardSetterGetter = new CardSetterGetter();
        cardSetterGetter.setName("Paper Presentation");

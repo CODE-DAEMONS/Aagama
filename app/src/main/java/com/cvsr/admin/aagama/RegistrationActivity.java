@@ -14,7 +14,15 @@ public class RegistrationActivity extends TechZoneCards {
     String s;
     Intent in;
 
-
+    String cse[]={"Paper Presentation","Poster Presentation","Hunt The Code","Webpage Design","Dumb Charades"};
+    String ece[]={"Paper Presentation_1","Poster Presentation_1","Project Presentation_1","Technical Quiz_1","Circuitrix_1"};
+    String eee[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","JAM_2"};
+    String it[]={"Paper Presentation_3","Bug The Bug_3","Code Race_3"};
+    String civ[]={"Paper Presentation_4","Poster Presentation_4","Project Presentation_4","CAD_4","Model Making_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
+    String mec[]={"Paper Presentation_5","Velocity_5","Technical Quiz_5"};
+    String che[]={"Paper Presentation_6","Poster Presentation_6","Compound Preparation_6","Technical Quiz_6"};
+    String pha[]={"Poster Presentation_7","Pharma Quiz_7","JAM_7"};
+    String mba[]={"Paper Presentation_8","Poster Presentation_8","Group Discussion_8","Business Plan_8"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,428 +50,101 @@ public class RegistrationActivity extends TechZoneCards {
 
     public void reg(View view) {
 
-        switch (s)
-        {
+
 
 //COMPUTER SCIENCE AND ENGINEERING
+        if(s.equals(cse[0])||s.equals(cse[1])||s.equals(cse[2])||s.equals(cse[3])||s.equals(cse[4])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+            startActivity(in);
 
-            case "Paper Presentation":  in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/cse.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-
-                break;
-
-            case "Poster Presentation":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/cse.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Code Quiz":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/cse.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Webpage Design":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/cse.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 
 //ELECTRONICS ANDCOMMUNICATION ENGINEERING
-            case "Paper Presentation_1" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/ece.html"));
-                startActivity(in);
+        if(s.equals(ece[0])||s.equals(ece[1])||s.equals(ece[2])||s.equals(ece[3])||s.equals(ece[4])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
+            startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Poster Presentation_1":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/ece.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 
-            case "Project Presentation_1":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/ece.html"));
-                startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Technical Quiz_1":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/ece.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Circuitrix_1":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/ece.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
 
 
 
 
 //ELECTRICAL AND ELECTRONICS ENGINEERING
-            case "Paper Presentation_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
+        if(s.equals(eee[0])||s.equals(eee[1])||s.equals(eee[2])||s.equals(eee[3])||s.equals(eee[4])||s.equals(eee[5])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+            startActivity(in);
 
-
-            case "Poster Presentation_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Project Presentation_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Circuitrix_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Technical Quiz_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "JAM_2":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/eee.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 //INFORMATION TECHNOLOGY
-            case "Paper Presentation_3" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/it.html"));
-                startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
+        if(s.equals(it[0])||s.equals(it[1])||s.equals(it[2])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
+            startActivity(in);
 
-
-
-            case "Bug The Bug_3" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/it.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
-            case "Code Race_3" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/it.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 //CIVIL ENGINERING
 
-            case "Paper Presentation_4" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/civil.html"));
-                startActivity(in);
+        if(s.equals(civ[0])||s.equals(civ[1])||s.equals(civ[2])||s.equals(civ[3])||s.equals(civ[4])||s.equals(civ[5])||s.equals(civ[6])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+            startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Poster Presentation_4" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/civil.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Project Presentation_4" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/civil.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "CAD_4" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/civil.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Technical Quiz_4" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/civil.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 //MECHANICAL ENGINEERING
-            case "Paper Presentation_5" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mech.html"));
-                startActivity(in);
 
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
+        if(s.equals(mec[0])||s.equals(mec[1])||s.equals(mec[2])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+            startActivity(in);
 
-            case "Velocity_5" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mech.html"));
-                startActivity(in);
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Technical Quiz_5" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mech.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 
 
 //CHEMICAL ENGINEERING
-            case "Paper Presentation_6" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/chemical.html"));
-                startActivity(in);
+        if(s.equals(che[0])||s.equals(che[1])||s.equals(che[2])||s.equals(che[3])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
+            startActivity(in);
 
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Poster Presentation_6" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/chemical.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Compound Preparation_6" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/chemical.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Technical Quiz_6" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/chemical.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 
 //PHARMACY DEPARTMENT
-            case "Paper Presentation_7" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/pharmacy.html"));
-                startActivity(in);
+        if(s.equals(pha[0])||s.equals(pha[1])||s.equals(pha[2])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
+            startActivity(in);
 
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Poster Presentation_7" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/pharmacy.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Pharma Quiz_7" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/pharmacy.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-            case "Debate_7" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/pharmacy.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
+        }
 
 //MBA DEPARTMENT
+        if(s.equals(mba[0])||s.equals(mba[1])||s.equals(mba[2])||s.equals(mba[3])){
+            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
+            startActivity(in);
 
-            case "Sarva Sresta_8" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mba.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Koutilya_8" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mba.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Pragnya_8" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mba.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Dhraveena_8" :
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/mba.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-//SKILL ZONE
-
-            case "Photo":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/skill.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Short Film":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/skill.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Sketch Up":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/skill.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Show Off":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/skill.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-            case "Lan Gaming":
-                in= new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.aagama2k16.in/skill.html"));
-                startActivity(in);
-
-
-                Toast.makeText(this,"redirected to your web browser",
-                        Toast.LENGTH_LONG).show();
-                break;
-
-
-
-
-
-
+            Toast.makeText(this,"redirected to your web browser",
+                    Toast.LENGTH_LONG).show();
         }
 
 
