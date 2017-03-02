@@ -35,9 +35,16 @@ public class CardAdapter_3 extends RecyclerView.Adapter<CardAdapter_3.ViewHolder
        mItems.add(cardSetterGetter);
 
        cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName("Code Race");
+       cardSetterGetter.setName("Code Cracker");
        cardSetterGetter.setThumbnail(R.drawable.code);
        mItems.add(cardSetterGetter);
+
+       cardSetterGetter = new CardSetterGetter();
+       cardSetterGetter.setName("Technical Quiz");
+       cardSetterGetter.setThumbnail(R.drawable.quiz);
+       mItems.add(cardSetterGetter);
+
+
 
 
 
@@ -68,7 +75,7 @@ public class CardAdapter_3 extends RecyclerView.Adapter<CardAdapter_3.ViewHolder
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         int position;
-        String s[]={"Paper Presentation_3","Bug The Bug_3","Code Race_3"};
+        String s[]={"Paper Presentation_3","Bug The Bug_3","Code Cracker_3","Technical Quiz_3"};
         public ImageView imgThumbnail;
         public TextView tvMovie;
 
@@ -106,6 +113,11 @@ public class CardAdapter_3 extends RecyclerView.Adapter<CardAdapter_3.ViewHolder
                 case 2:context = itemView.getContext();
                     intent = new Intent(context, RegistrationActivity.class);
                     intent.putExtra("event", s[2]);
+                    context.startActivity(intent);
+                    break;
+                case 3:context = itemView.getContext();
+                    intent = new Intent(context, RegistrationActivity.class);
+                    intent.putExtra("event", s[3]);
                     context.startActivity(intent);
                     break;
 

@@ -17,7 +17,7 @@ public class RegistrationActivity extends TechZoneCards {
     String cse[]={"Paper Presentation","Poster Presentation","Hunt The Code","Webpage Design","Dumb Charades"};
     String ece[]={"Paper Presentation_1","Poster Presentation_1","Project Presentation_1","Technical Quiz_1","Circuitrix_1"};
     String eee[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","JAM_2"};
-    String it[]={"Paper Presentation_3","Bug The Bug_3","Code Race_3"};
+    String it[]={"Paper Presentation_3","Bug The Bug_3","Code Cracker_3","Technical Quiz_3"};
     String civ[]={"Paper Presentation_4","Poster Presentation_4","Project Presentation_4","CAD_4","Model Making_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
     String mec[]={"Paper Presentation_5","Velocity_5","Technical Quiz_5"};
     String che[]={"Paper Presentation_6","Poster Presentation_6","Compound Preparation_6","Technical Quiz_6"};
@@ -53,7 +53,8 @@ public class RegistrationActivity extends TechZoneCards {
 
 
 //COMPUTER SCIENCE AND ENGINEERING
-        if(s.equals(cse[0])||s.equals(cse[1])||s.equals(cse[2])||s.equals(cse[3])||s.equals(cse[4])){
+        if(s.equals(cse[0])||s.equals(cse[1])||s.equals(cse[2])||s.equals(cse[3])||s.equals(cse[4]))
+        {
             in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
             startActivity(in);
 
@@ -89,7 +90,7 @@ public class RegistrationActivity extends TechZoneCards {
 
 //INFORMATION TECHNOLOGY
 
-        if(s.equals(it[0])||s.equals(it[1])||s.equals(it[2])){
+        if(s.equals(it[0])||s.equals(it[1])||s.equals(it[2])||s.equals(it[3])){
             in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
             startActivity(in);
 

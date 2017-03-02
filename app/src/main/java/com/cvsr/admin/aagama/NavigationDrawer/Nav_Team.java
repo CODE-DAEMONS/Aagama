@@ -29,6 +29,8 @@ public class Nav_Team extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.launch1);
 
         viewpager = (ViewPager) findViewById(R.id.vpPager);
         viewpager.setAdapter(new CustomAdapter1(getSupportFragmentManager(), getApplicationContext()));
@@ -63,7 +65,7 @@ public class Nav_Team extends AppCompatActivity {
 
     private class CustomAdapter1 extends FragmentPagerAdapter {
 
-        private String fragments[] = {"Patron","Dev Nav_Team"};
+        private String fragments[] = {"Patron","Dev Team"};
 
         public CustomAdapter1(FragmentManager supportFragmentManager, Context context) {
             super(supportFragmentManager);
