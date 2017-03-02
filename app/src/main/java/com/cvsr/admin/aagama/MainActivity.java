@@ -9,27 +9,40 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.intro);
 
 
-        final Thread timer=new Thread(){
-            public void run(){
-                try {
+        final Thread timer=new Thread()
+        {
+            public void run()
+            {
+                try
+                {
                     sleep(4000);
                 }
-                catch (InterruptedException e){
+                catch (InterruptedException e)
+                {
                     e.printStackTrace();
                 }
-                finally {
-                    Intent a=new Intent(MainActivity.this,NavActivity.class);
+                finally
+                {
+                    Intent a=new Intent(getApplicationContext(),NavActivity.class);
                     startActivity(a);
                 }
             }
 
         };
         timer.start();
+
 
     }
 
@@ -40,10 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-        protected void onPause(){
-            super.onPause();
-            finish();
-        }
+
 
 
 }
