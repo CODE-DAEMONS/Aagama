@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    Intent a=new Intent(getApplicationContext(),NavActivity.class);
+                    Intent a=new Intent(MainActivity.this,NavActivity.class);
                     startActivity(a);
                 }
             }
