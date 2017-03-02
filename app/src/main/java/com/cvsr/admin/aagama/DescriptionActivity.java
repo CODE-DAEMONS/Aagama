@@ -1206,22 +1206,31 @@ public class DescriptionActivity extends RegistrationActivity {
 //SKILL ZONE
 
                 case "Laser Trap":
-                    text1="LASER TRAP";
-                    text="First day: Nature (Within the college).\n" +
-                            "Second day: Theme will be given on spot.\n" +
+                    text1="LAZER TRAP";
+                    text="DESCRIPTION:\n" +
                             "\n" +
-                            "DescriptionActivity:\n" +
-                            " \n" +
-                            "1. The photographer must not click people during contest.\n" +
-                            "2. Photographs should be submitted without any editing.\n" +
-                            "3. Photograph should be clicked on the date of contest.\n" +
-                            "4. One snap should be submitted for each theme.\n" +
-                            "5. We are not responsible for your belongings.\n" +
+                            "Laser Trap is an interactive game in which players race against a maze of lasers to reach the end point as quickly as possible, scoring points for speed. The easiest way to understand it is to think of any bank/museum heist movie where the thief has to cross a field of lasers without breaking any of the beams. Same idea. No treasure. Sorry.\n" +
+                            "FEE    :  75/- per person\n" +
                             "\n" +
-                            "Registration Fee: Dslr 70/- ,Mobile 40/- \n" +
-                            "Prize:Exciting goodies and cash prize\n" +
                             "\n" +
-                            "Co-ordinator : Nipun (9059811973)";
+                            "RULES:\n" +
+                            "\n" +
+                            "1.ID card must be carried.\n" +
+                            "2.Single player game\n" +
+                            "3.Proper discipline should be maintained.\n" +
+                            "4.Player should wear laser safety glasses if provided\n" +
+                            "\n" +
+                            "\n" +
+                            "CAUTION:\n" +
+                            "\n" +
+                            "1.Extreme care should be taken while playing as lasers are harmful\n" +
+                            "2.Player should not maintain direct eye contact with lasers\n" +
+                            "\n" +
+                            "\n" +
+                            "Student CO-ORDINATORS:\n" +
+                            "R.N.SAITEJA (7093142994)  saiteja.rangi0615@gmail.com\n" +
+                            "MANIKANDAN (9704167184)   v.mani1996@gmail.com\n" +
+                            "TAFAZUL  (7416246824)   tafazul29@gmail.com";
                     tv1.setText(text1);
                     tv.setText(text);
                     break;

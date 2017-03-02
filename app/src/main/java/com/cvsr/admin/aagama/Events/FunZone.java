@@ -76,7 +76,7 @@ public class FunZone extends Fragment {
             d15=getResources().getDrawable(R.drawable.halloween);
             d16=getResources().getDrawable(R.drawable.tug);
             d17=getResources().getDrawable(R.drawable.arm);
-            d18=getResources().getDrawable(R.mipmap.face);
+            d18=getResources().getDrawable(R.drawable.arm);
             d19=getResources().getDrawable(R.drawable.ram);
             d20=getResources().getDrawable(R.drawable.cinemania);
             d21=getResources().getDrawable(R.drawable.puzzle);

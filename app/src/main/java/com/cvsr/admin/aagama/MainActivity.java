@@ -14,6 +14,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.intro);
 
 
+        final Thread timer=new Thread(){
+            public void run(){
+                try {
+                    sleep(4000);
+                }
+                catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+                finally {
+                    Intent a=new Intent(getApplicationContext(),NavActivity.class);
+                    startActivity(a);
+                }
+            }
+
+        };
+        timer.start();
+
     }
 
     public void proceed(View view) {
@@ -21,4 +38,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+
+
+        protected void onPause(){
+            super.onPause();
+            finish();
+        }
+
+
 }
+
+
+
