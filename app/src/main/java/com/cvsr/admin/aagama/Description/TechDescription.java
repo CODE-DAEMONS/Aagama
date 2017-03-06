@@ -1,16 +1,20 @@
-package com.cvsr.admin.aagama;
+package com.cvsr.admin.aagama.Description;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
+import com.cvsr.admin.aagama.R;
+import com.cvsr.admin.aagama.Registration.TechRegistration;
+
 /**
  * Created by ADMIN on 2/22/2016.
  */
-public class DescriptionActivity extends RegistrationActivity {
+public class TechDescription extends TechRegistration {
     TextView tv1,tv;
     String text1,text;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.description);
@@ -23,16 +27,8 @@ public class DescriptionActivity extends RegistrationActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.launch1);
 
-
-        // See assets/res/any/layout/styled_text.xml for this
-        // view layout definition.
-
         Intent in = getIntent();
         String s = in.getStringExtra("event");
-        // Programmatically load text from an asset and place it into the
-        // text view.  Note that the text we are loading is ASCII, so we
-        // need to convert it to UTF-16.
-
             switch(s) {
 //COMPUTER SCIENCE AND ENGINEERING
                 case "Paper Presentation":
@@ -521,7 +517,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "“I am not, But M trying to” the phrases of Winston Churchill chilled out the hearts of many people. This platform a to expose your talent and in-depth knowledge on your interested areas. Come, chill out the hearts of the people with your innovative presentation.\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations\n" +
+                            "  TechDescription & Regulations\n" +
                             "\n" +
                             "Maximum of 2 members per layout_team1 are allowed\n" +
                             "\n" +
@@ -552,7 +548,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "A code with errors (C Language) will be given to the teams, they should find the errors and rectify them. The rectified code should be executed without errors and warning\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "Maximum of 2 member per layout_team1 are allowed\n" +
                             "\n" +
@@ -577,7 +573,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "Task with specified input and corresponding output will be given. Participants who completes the task first will be the winner\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "A maximum of 3 members per layout_team1 are allowed\n" +
                             "\n" +
@@ -845,7 +841,7 @@ public class DescriptionActivity extends RegistrationActivity {
 //MECHANICAL ENGINEERING
                 case "Paper Presentation_5" :
                     text1="Paper Presentation";
-                    text="  DescriptionActivity & Regulations\n" +
+                    text="  TechDescription & Regulations\n" +
                             "\n" +
                             "Max of 2 participants will be allowed in a layout_team1.\n" +
                             "\n" +
@@ -877,7 +873,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "Each layout_team1 is supposed to Assemble and dissemble the given component in short time of period\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "each layout_team1 can have max of 2 members\n" +
                             "the presentation should not exceed given time";
@@ -925,7 +921,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "Ignite the grey matter and explore the thousands of ideas within. We value what’s truly yours. Well, that’s what research is all about.\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations:\n" +
+                            "  TechDescription & Regulations:\n" +
                             "\n" +
                             "1.Maximum number of participants in a layout_team1 is 2.\n" +
                             "\n" +
@@ -958,7 +954,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "Show the world what wonder an engineer can do\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "1.College ID card is mandatory.\n" +
                             "\n" +
@@ -988,7 +984,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "It is all about synthesis,purification,drying,weighing of compound with the help of given standard procedure.best yielding compound will be prized .\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "1.College ID is mandatory.\n" +
                             "\n" +
@@ -1015,7 +1011,7 @@ public class DescriptionActivity extends RegistrationActivity {
                             "\n" +
                             "Knock Knock? Whos there? A question.\n" +
                             "\n" +
-                            "  DescriptionActivity & Regulations :\n" +
+                            "  TechDescription & Regulations :\n" +
                             "\n" +
                             "1.College ID card is mandatory.\n" +
                             "\n" +
@@ -1203,173 +1199,8 @@ public class DescriptionActivity extends RegistrationActivity {
                     break;
 
 
-//SKILL ZONE
-
-                case "Laser Trap":
-                    text1="LAZER TRAP";
-                    text="DESCRIPTION:\n" +
-                            "\n" +
-                            "Laser Trap is an interactive game in which players race against a maze of lasers to reach the end point as quickly as possible, scoring points for speed. The easiest way to understand it is to think of any bank/museum heist movie where the thief has to cross a field of lasers without breaking any of the beams. Same idea. No treasure. Sorry.\n" +
-                            "FEE    :  75/- per person\n" +
-                            "\n" +
-                            "\n" +
-                            "RULES:\n" +
-                            "\n" +
-                            "1.ID card must be carried.\n" +
-                            "2.Single player game\n" +
-                            "3.Proper discipline should be maintained.\n" +
-                            "4.Player should wear laser safety glasses if provided\n" +
-                            "\n" +
-                            "\n" +
-                            "CAUTION:\n" +
-                            "\n" +
-                            "1.Extreme care should be taken while playing as lasers are harmful\n" +
-                            "2.Player should not maintain direct eye contact with lasers\n" +
-                            "\n" +
-                            "\n" +
-                            "Student CO-ORDINATORS:\n" +
-                            "R.N.SAITEJA (7093142994)  saiteja.rangi0615@gmail.com\n" +
-                            "MANIKANDAN (9704167184)   v.mani1996@gmail.com\n" +
-                            "TAFAZUL  (7416246824)   tafazul29@gmail.com";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
 
-                case "Spell Bee":
-                    text1="SPELL BEE\n" +
-                            "\"A Word Challenge\"";
-                    text=   "\n" +
-                            "A spell bee is a competition in which contestants are asked to spell a broad selection of words, usually with a varying degree of difficulty.\n" +
-                            "\n" +
-                            "1. Single participant\t\n" +
-                            "2. 50 seconds of time will be given to each participant\n" +
-                            "\n" +
-                            "\n" +
-                            "STUDENT COORDINATORS \n" +
-                            "1. T.Meghana (9177513345)\n" +
-                            "2. P.Meghana (9030825958)";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-
-                case "Sketch Up":
-                    text1="SKETCH UP";
-                    text="\n" +
-                            "The people who  shape  the physical world\n" +
-                            "\n" +
-                            "\n" +
-                            "RULES AND REGULATIONS\n" +
-                            "•\tTeam must be 2 participants\n" +
-                            "•\tTime limit will be there\n" +
-                            "•\tSkill should be needed\n" +
-                            "•\tAccuracy of sketch\n" +
-                            "\n" +
-                            "\n" +
-                            "STRUCTURE:\n" +
-                            "\n" +
-                            "One member should be  given instructions other member should be sketchup the given theme\n" +
-                            "\n" +
-                            "\n" +
-                            "STUDENT CO-ORDINATERS:\n" +
-                            "1. K VINAY BABU (8143309392)\n" +
-                            "2. N SHRAVYA (7032678236)\n";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-
-                case "Show Off":
-                    text1="SHOW OFF";
-                    text="The Talent Show…\n" +
-                            "\n" +
-                            "\n" +
-                            "1. Any talent (singing, dancing, mimicry, musical instrument, stunts, mime etc.) may be exhibited on a stage of 25 feet x 15 feet and a height of 12 feet.\n" +
-                            "\n" +
-                            "2. It may be either an Individual or a Group.\n" +
-                            "\n" +
-                            "3. Minimum duration to perform is 4 Minutes and the Maximum Duration is 7 Minutes.\n" +
-                            "\n" +
-                            "4. Participants should carry their own properties.\n" +
-                            "\n" +
-                            "5. College ID Card of the participants is to be carried without fail.\n" +
-                            "\n" +
-                            "7. Screening for first round shall be done through Audience pole.\n" +
-                            "\n" +
-                            "8. The winners shall be awarded with prize money and trophy \n" +
-                            "\n" +
-                            "Entry fee :Rs.50/-\n" +
-                            "\n" +
-                            "\n" +
-                            "Co-ordinator:\n" +
-                            "\n" +
-                            "Krupan(9550211349)";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-
-                case "Lan Gaming":
-                    text1="LAN GAMING";
-                    text="Description:\n" +
-                            "\n" +
-                            "1.You are responsible for your actions and equipment. We are not liable for anything that happens to you and your equipment.\n" +
-                            "2. Do not attempt to steal items from the events or anyone else. Legal cosequences will be there.\n" +
-                            "3. Cheating is not tolerated.\n" +
-                            "4. Do not bring any type of hacks/viruses to the event.\n" +
-                            "5. Listen to those in charge.\n" +
-                            "6. We reserve the right to remove anyone from premises for any reason we fit.\n" +
-                            "\n" +
-                            "\n" +
-                            "Student co-ordinators:\n" +
-                            "1. N.Harsha  Vardhan (7793989595)\n" +
-                            "2. V.Vivek (8143567726)\n";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-
-
-
-                case "Innovatia":
-                    text1="INNOVATIA";
-                    text="Event Outline:\n" +
-                            "\n" +
-                            "     This event consists of total 3 rounds.\n" +
-                            "\n" +
-                            "ROUND 1:\n" +
-                            "\n" +
-                            "1.\t The students are divided into groups of 3 or 4, depending on their convenience.\n" +
-                            "2.\t Each team is given a prop of their own and they are supposed to write 5 best ideas.\n" +
-                            "\n" +
-                            "\n" +
-                            "ROUND 2:\n" +
-                            "\n" +
-                            "1.\tIn this round their papers are interchanged with other teams\n" +
-                            "2.\tThey have to find flaws in one of the ideas of the papers they received, and justify the mistake.\n" +
-                            "\n" +
-                            "\n" +
-                            "ROUND 3:\n" +
-                            "\n" +
-                            "1.\tThe students now get back their papers and they should rectify and improve the flaw.\n" +
-                            "\n" +
-                            "\n" +
-                            "Rules and regulations:\n" +
-                            "\n" +
-                            "1.\tAny student within the age group of 14- 25 years can participate and each team should consist of not more than three members.\n" +
-                            "2.\t Use of mobile phones or any other electronic or communication device is prohibited during the event.\n" +
-                            "3.\t Participants should carry their college or school ID cards.\n" +
-                            "4.\tOrganizers reserve the right to disqualify teams on the grounds of misbehavior and use of unfair means. Their decision is considered final and not subjected to dispute.\n" +
-                            "5.\t Teams exceeding the time limit are liable for disqualification.\n" +
-                            "\n" +
-                            "\n" +
-                            "Student Coordinators:\n" +
-                            "1. T.AKANKSHA (8309409710)\n" +
-                            "2. M.BHARATH REDDY (7093754865)\n";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
             }
 

@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.cvsr.admin.aagama.CardSetterGetter;
-import com.cvsr.admin.aagama.RegistrationActivity;
+import com.cvsr.admin.aagama.Registration.TechRegistration;
 import com.cvsr.admin.aagama.R;
 
 import java.util.ArrayList;
@@ -116,37 +116,37 @@ public class CardAdapter_2 extends RecyclerView.Adapter<CardAdapter_2.ViewHolder
 
 
                 case 0:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[0]);
                     context.startActivity(intent);
                     break;
                 case 1:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[1]);
                     context.startActivity(intent);
                     break;
                 case 2:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[2]);
                     context.startActivity(intent);
                     break;
 
                 case 3:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[3]);
                     context.startActivity(intent);
                     break;
 
 
                 case 4:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[4]);
                     context.startActivity(intent);
                     break;
 
 
                 case 5:context = itemView.getContext();
-                    intent = new Intent(context, RegistrationActivity.class);
+                    intent = new Intent(context, TechRegistration.class);
                     intent.putExtra("event", s[5]);
                     context.startActivity(intent);
                     break;

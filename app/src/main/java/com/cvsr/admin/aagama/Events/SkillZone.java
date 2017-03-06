@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.cvsr.admin.aagama.RegistrationActivity;
+import com.cvsr.admin.aagama.Registration.SkillRegistration;
 import com.cvsr.admin.aagama.R;
 
 /**
@@ -18,26 +18,44 @@ import com.cvsr.admin.aagama.R;
 public class SkillZone extends Fragment implements View.OnClickListener {
 
     View view;
-    Intent intent;
+    Intent obj;
 
+    String s[]={"lazer Trap","Lan Gaming","Blank Coding","Ideation Contest","Circuitrix","DumbShell Electronics","Fastest Typing First","Words Worth","Quick CADD","Model Making","Cosplay AD","Arm Wrestling","Treasure Hunt"};
+    CardView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13;   //SkillZone
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.skill_zone, container, false);
 
-        CardView card1=(CardView)view.findViewById(R.id.card1);
-        CardView card2=(CardView)view.findViewById(R.id.card2);
-        CardView card3=(CardView)view.findViewById(R.id.card3);
-        CardView card4=(CardView)view.findViewById(R.id.card4);
-        CardView card5=(CardView)view.findViewById(R.id.card5);
-        CardView card6=(CardView)view.findViewById(R.id.card6);
+        c1=(CardView)view.findViewById(R.id.cards1);
+        c2=(CardView)view.findViewById(R.id.cards2);
+        c3=(CardView)view.findViewById(R.id.cards3);
+        c4=(CardView)view.findViewById(R.id.cards4);
+        c5=(CardView)view.findViewById(R.id.cards5);
+        c6=(CardView)view.findViewById(R.id.cards6);
+        c7=(CardView)view.findViewById(R.id.cards7);
+        c8=(CardView)view.findViewById(R.id.cards8);
+        c9=(CardView)view.findViewById(R.id.cards9);
+        c10=(CardView)view.findViewById(R.id.cards10);
+        c11=(CardView)view.findViewById(R.id.cards11);
+        c12=(CardView)view.findViewById(R.id.cards12);
+        c13=(CardView)view.findViewById(R.id.cards13);
 
-        card1.setOnClickListener(this);
-        card2.setOnClickListener(this);
-        card3.setOnClickListener(this);
-        card4.setOnClickListener(this);
-        card5.setOnClickListener(this);
-        card6.setOnClickListener(this);
+
+        c1.setOnClickListener(this);
+        c2.setOnClickListener(this);
+        c3.setOnClickListener(this);
+        c4.setOnClickListener(this);
+        c5.setOnClickListener(this);
+        c6.setOnClickListener(this);
+        c7.setOnClickListener(this);
+        c8.setOnClickListener(this);
+        c9.setOnClickListener(this);
+        c10.setOnClickListener(this);
+        c11.setOnClickListener(this);
+        c12.setOnClickListener(this);
+        c13.setOnClickListener(this);
+
 
 
 
@@ -49,45 +67,86 @@ public class SkillZone extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
 
-        switch (v.getId()) {
+        if(v==c1){
+            obj=new Intent(getActivity(), SkillRegistration.class);
+            obj.putExtra("event",s[0]);
+            startActivity(obj);
+        }
+        if(v==c2){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[1]);
+            startActivity(obj);
 
-            case R.id.card1:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event", "Laser Trap");
-                startActivity(intent);
-                break;
+        }
+        if(v==c3){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[2]);
+            startActivity(obj);
 
-            case R.id.card2:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event","Spell Bee");
-                startActivity(intent);
-                break;
+        }
+        if(v==c4){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[3]);
+            startActivity(obj);
 
-            case R.id.card3:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event","Sketch Up");
-                startActivity(intent);
-                break;
-            case R.id.card4:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event","Show Off");
-                startActivity(intent);
-                break;
-            case R.id.card5:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event","Lan Gaming");
-                startActivity(intent);
-                break;
-            case R.id.card6:
-                intent = new Intent(getActivity(), RegistrationActivity.class);
-                intent.putExtra("event","Innovatia");
-                startActivity(intent);
-                break;
+        }
+        if(v==c5){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[4]);
+            startActivity(obj);
 
+        }
+        if(v==c6){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[5]);
+            startActivity(obj);
 
-            default:
-                break;
+        }
+        if(v==c7){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[6]);
+            startActivity(obj);
+
+        }
+        if(v==c8){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[7]);
+            startActivity(obj);
+
+        }
+        if(v==c9){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[8]);
+            startActivity(obj);
+
+        }
+        if(v==c10){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[9]);
+            startActivity(obj);
+
+        }
+        if(v==c11){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[10]);
+            startActivity(obj);
+
+        }
+        if(v==c12){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[11]);
+            startActivity(obj);
+        }
+        if(v==c13){
+            obj=new Intent(getActivity(),SkillRegistration.class);
+            obj.putExtra("event",s[12]);
+            startActivity(obj);
+
         }
 
+
+
+
     }
+
 }

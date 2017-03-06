@@ -24,7 +24,7 @@
                 android:layout_height="match_parent">
 
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card1"
+                    android:id="@+id/cards1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
@@ -103,14 +103,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card2"
+                    android:id="@+id/cards2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card1">
+                    android:layout_below="@+id/cards1">
 
                     <RelativeLayout
                         android:id="@+id/RL2"
@@ -187,14 +187,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card3"
+                    android:id="@+id/cards3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card2">
+                    android:layout_below="@+id/cards2">
 
                     <RelativeLayout
                         android:id="@+id/RL3"
@@ -270,14 +270,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card4"
+                    android:id="@+id/cards4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card3">
+                    android:layout_below="@+id/cards3">
 
                     <RelativeLayout
                         android:id="@+id/RL4"
@@ -353,14 +353,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card5"
+                    android:id="@+id/cards5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card4">
+                    android:layout_below="@+id/cards4">
 
                     <RelativeLayout
                         android:id="@+id/RL5"
@@ -436,14 +436,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card6"
+                    android:id="@+id/cards6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card5">
+                    android:layout_below="@+id/cards5">
 
                     <RelativeLayout
                         android:id="@+id/RL6"
@@ -519,14 +519,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card7"
+                    android:id="@+id/cards7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card6">
+                    android:layout_below="@+id/cards6">
 
                     <RelativeLayout
                         android:id="@+id/RL7"
@@ -602,14 +602,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card8"
+                    android:id="@+id/cards8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card7">
+                    android:layout_below="@+id/cards7">
 
                     <RelativeLayout
                         android:id="@+id/RL8"
@@ -685,14 +685,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card9"
+                    android:id="@+id/cards9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card8">
+                    android:layout_below="@+id/cards8">
 
                     <RelativeLayout
                         android:id="@+id/RL9"
@@ -768,14 +768,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card10"
+                    android:id="@+id/cards10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card9">
+                    android:layout_below="@+id/cards9">
 
                     <RelativeLayout
                         android:id="@+id/RL10"
@@ -851,14 +851,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card11"
+                    android:id="@+id/cards11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card10">
+                    android:layout_below="@+id/cards10">
 
                     <RelativeLayout
                         android:id="@+id/RL11"
@@ -934,14 +934,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card12"
+                    android:id="@+id/cards12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card11">
+                    android:layout_below="@+id/cards11">
 
                     <RelativeLayout
                         android:id="@+id/RL12"
@@ -1017,14 +1017,14 @@
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/card13"
+                    android:id="@+id/cards13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     card_view:cardBackgroundColor="@android:color/white"
                     card_view:cardCornerRadius="4dp"
                     card_view:cardElevation="10dp"
                     card_view:cardUseCompatPadding="true"
-                    android:layout_below="@+id/card12">
+                    android:layout_below="@+id/cards12">
 
                     <RelativeLayout
                         android:id="@+id/RL13"

@@ -1,4 +1,4 @@
-package com.cvsr.admin.aagama;
+package com.cvsr.admin.aagama.Registration;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,10 +7,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
+import com.cvsr.admin.aagama.Description.TechDescription;
+import com.cvsr.admin.aagama.R;
+import com.cvsr.admin.aagama.TechZoneCards;
+
 /**
  * Created by ADMIN on 2/21/2016.
  */
-public class RegistrationActivity extends TechZoneCards {
+public class TechRegistration extends TechZoneCards {
     String s;
     Intent in;
 
@@ -43,7 +47,7 @@ public class RegistrationActivity extends TechZoneCards {
 
     public void rules(View view) {
 
-        Intent in = new Intent(getApplicationContext(), DescriptionActivity.class);
+        Intent in = new Intent(getApplicationContext(), TechDescription.class);
         in.putExtra("event", s);
         startActivity(in);
     }
@@ -150,4 +154,9 @@ public class RegistrationActivity extends TechZoneCards {
 
 
     }
+
+
+    //Skill Zone
+
+
 }

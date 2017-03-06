@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cvsr.admin.aagama">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -33,41 +33,59 @@
             </intent-filter>
 
 
-
         </activity>
 
-        <activity android:name=".TechZoneCards"
+        <activity
+            android:name=".TechZoneCards"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Registration.TechRegistration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Description.TechDescription"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Registration.SkillRegistration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Description.SkillDescription"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
-        <activity android:name=".RegistrationActivity"
+        <activity
+            android:name=".Registration.OpenRegistration"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".DescriptionActivity"
+        <activity
+            android:name=".Description.OpenDescription"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".NavigationDrawer.Nav_Team"
+        <activity
+            android:name=".NavigationDrawer.Nav_Team"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".NavActivity"
+        <activity
+            android:name=".NavActivity"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".VideoViewActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
-        </activity>
-
-
+        <activity
+            android:name=".VideoViewActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
 
     </application>
