@@ -1,394 +1,412 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/kulerwhite">
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-        <LinearLayout
-            android:id="@+id/ll1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="120">
-
-            <LinearLayout
-                android:id="@+id/l1"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical"
-                android:weightSum="100">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/selfie"
-                    android:layout_weight="75"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Selfie Story"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l2"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/face"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Pie Face\nChallenge"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l3"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/plan"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Plan It"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/ll2"
-            android:layout_below="@+id/ll1"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="4dp">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="120">
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
             <LinearLayout
-                android:id="@+id/l4"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical"
-                android:weightSum="100">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/quiz"
-                    android:layout_weight="75"/>
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="120">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Logo Quiz"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:weightSum="100">
+                    <ImageView
+                        android:id="@+id/selfie"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Selfie Story"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l2"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/pie"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Pie Face\nChallenge"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l3"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Plan It"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
-                android:id="@+id/l5"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/invest"
-                    android:layout_weight="75" />
+                android:id="@+id/ll2"
+                android:layout_below="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="120">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Investments"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
+                <LinearLayout
+                    android:id="@+id/l4"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:weightSum="100">
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Logo Quiz"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l5"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/invest"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Investments"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l6"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/scary"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Scary House"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
-                android:id="@+id/l6"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/scary"
-                    android:layout_weight="75" />
+                android:id="@+id/ll3"
+                android:layout_below="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="120">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Scary House"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
+                <LinearLayout
+                    android:id="@+id/l7"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:weightSum="100">
+                    <ImageView
+                        android:id="@+id/treasure"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Treasure Hunt"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l8"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/dub"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Dubsmash"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l9"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/brain"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Brain Twister"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/ll3"
-            android:layout_below="@+id/ll2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="120">
-
             <LinearLayout
-                android:id="@+id/l7"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical"
-                android:weightSum="100">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/treasure"
-                    android:layout_weight="75"/>
+                android:id="@+id/ll4"
+                android:layout_below="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="120">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Treasure Hunt"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
+                <LinearLayout
+                    android:id="@+id/l10"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:weightSum="100">
+                    <ImageView
+                        android:id="@+id/minute"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Minute To\n Win IT"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l11"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/crack"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Crack It"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l12"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/film"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Filmy Quiz"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
             </LinearLayout>
-
             <LinearLayout
-                android:id="@+id/l8"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/dubsmash"
-                    android:layout_weight="75" />
+                android:id="@+id/ll5"
+                android:layout_below="@+id/ll4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="120">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Dubsmash"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
+                <LinearLayout
+                    android:id="@+id/l13"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:weightSum="100">
 
+                    <ImageView
+                        android:id="@+id/hallo"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Halloween"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l14"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/hang"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Do or Die"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l15"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/ulta"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="75" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Ulta-Palta"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:layout_weight="25"/>
+
+                </LinearLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/l9"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/brain"
-                    android:layout_weight="75" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Brain Twister"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/ll4"
-            android:layout_below="@+id/ll3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="120">
-
-            <LinearLayout
-                android:id="@+id/l10"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical"
-                android:weightSum="100">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/minute"
-                    android:layout_weight="75"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Minute To\n Win IT"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l11"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/crack"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Crack It"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l12"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/film"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Filmy Quiz"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/ll5"
-            android:layout_below="@+id/ll4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="120">
-
-            <LinearLayout
-                android:id="@+id/l13"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical"
-                android:weightSum="100">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/halloween"
-                    android:layout_weight="75"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Halloween"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l14"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/hangman"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Do or Die"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/l15"
-                android:layout_width="50dp"
-                android:layout_height="120dp"
-                android:layout_weight="40"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:src="@drawable/ulta"
-                    android:layout_weight="75" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Ulta-Palta"
-                    android:textAlignment="center"
-                    android:padding="5dp"
-                    android:layout_weight="25"/>
-
-            </LinearLayout>
-        </LinearLayout>
-
-
-    </RelativeLayout>
-</ScrollView>
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
 
 </RelativeLayout>

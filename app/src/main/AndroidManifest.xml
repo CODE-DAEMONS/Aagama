@@ -72,6 +72,16 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <activity
+            android:name=".Registration.FunRegistration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Description.FunDescription"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
             android:name=".NavigationDrawer.Nav_Team"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"></activity>
@@ -80,11 +90,6 @@
             android:name=".NavActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
-        <activity
-            android:name=".VideoViewActivity"
-            android:exported="true"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
 

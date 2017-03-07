@@ -130,9 +130,5 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
         startActivity(in);
     }
 
-    public void video(View view)
-    {
-        Intent in = new Intent(this, VideoViewActivity.class);
-        startActivity(in);
-    }
+
 }
