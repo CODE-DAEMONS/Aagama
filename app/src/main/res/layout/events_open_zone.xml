@@ -5,397 +5,1163 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="10dp"
-        android:background="@color/kulerwhite">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollIndicators="none">
-    <RelativeLayout
-        android:layout_width="match_parent"
-
-        android:layout_height="match_parent">
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="10dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="225dp"
-                android:padding="3dp">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="#8C1717"
-                    android:text="Make In India"
-                    android:textColor="#ffffff"
-                    android:id="@+id/title1" />
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:id="@+id/poster1"
-                    android:src="@drawable/india"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"/>
-
-                <TextView
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/about1"
-                    android:textSize="12sp"
-                    android:textColor="#ffffff"
-                    android:textAlignment="center"
-                    android:background="#CD3333"
-                    android:id="@+id/content1"
-                    android:padding="5dp"
-                    android:layout_alignLeft="@+id/title1"
-                    android:layout_alignStart="@+id/title1"
-                    android:layout_below="@+id/title1"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="10dp"/>
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card2"
-            android:layout_below="@+id/card1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="10dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="225dp"
-                android:padding="3dp">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="#8C1717"
-                    android:text="RC CAR RACING "
-                    android:textColor="#ffffff"
-                    android:id="@+id/title2" />
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:id="@+id/poster2"
-                    android:src="@drawable/tire"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"/>
-
-                <TextView
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Create your remote vehicles, customize them and race your remote vehicles to the finish line.Get ready for the action to beat your opponents and set track records.Speed, throttle, smash, dash, crash and still make it to the finish line ahead of everyone."
-                    android:textSize="12sp"
-                    android:textColor="#ffffff"
-                    android:textAlignment="center"
-                    android:background="#CD3333"
-                    android:id="@+id/content2"
-                    android:padding="5dp"
-                    android:layout_alignLeft="@+id/title2"
-                    android:layout_alignStart="@+id/title2"
-                    android:layout_below="@+id/title2"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="10dp"/>
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card3"
-           android:layout_below="@+id/card2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="10dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="225dp"
-                android:padding="3dp">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="#8C1717"
-                    android:text="Filmy Quiz"
-                    android:textColor="#ffffff"
-                    android:id="@+id/title3" />
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:id="@+id/poster3"
-                    android:src="@drawable/film"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"/>
-
-                <TextView
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/about3"
-                    android:textSize="12sp"
-                    android:textColor="#ffffff"
-                    android:textAlignment="center"
-                    android:background="#CD3333"
-                    android:id="@+id/content3"
-                    android:padding="5dp"
-                    android:layout_alignLeft="@+id/title3"
-                    android:layout_alignStart="@+id/title3"
-                    android:layout_below="@+id/title3"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="30dp"
-                    android:layout_marginLeft="5dp" />
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card4"
-       android:layout_below="@+id/card3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="@android:color/white"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true">
+        android:background="#222222">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="225dp"
-            android:padding="3dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            <Button
+            <LinearLayout
+                android:id="@id/grid1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="#8C1717"
-                android:text="Junk Yard"
-                android:textColor="#ffffff"
-                android:id="@+id/title4" />
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:id="@+id/poster4"
-                android:src="@drawable/waste"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginBottom="35dp"
-                android:layout_marginLeft="5dp"/>
-
-            <TextView
-                android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Do you believe that fun can be found from junk? Funk From Junk gives an opportunity to CRAZ'C student to showcase their technical wackiness combined with the old fashioned tricks to strengthen their understanding with their teammates..!!!"
-                android:textSize="12sp"
-                android:textColor="#ffffff"
-                android:textAlignment="center"
-                android:background="#CD3333"
-                android:id="@+id/content4"
-                android:padding="5dp"
-                android:layout_alignLeft="@+id/title4"
-                android:layout_alignStart="@+id/title4"
-                android:layout_below="@+id/title4"
-                android:layout_marginTop="30dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="25dp"
-                android:layout_marginLeft="5dp" />
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card1"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="APP CHALLENGE "
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster1"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/app" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card2"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="ALL ROUND QUIZ"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster2"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/quiz" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid2"
+                android:layout_below="@+id/grid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card3"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="4-PICS-1-WORd "
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster3"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/picword" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card4"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="MINUTE TO WIN IT"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster4"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/minute" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid3"
+                android:layout_below="@+id/grid2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card5"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title5"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="CYBER CHASE"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster5"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/cyber" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card6"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="CHECK YOUR IQ"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster6"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/brain" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/grid4"
+                android:layout_below="@id/grid3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card7"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title7"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="R.C.RACING"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster7"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/tire" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="ECE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card8"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="JUNK YARD"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster8"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/waste" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="ECE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/grid5"
+                android:layout_below="@+id/grid4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card9"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title9"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="RAM AND ROM"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster9"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/ram" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="ECE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card10"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="PUZZLE"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster10"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/puzzle" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="EEE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid6"
+                android:layout_below="@id/grid5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card11"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title11"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="JAM"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster11"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/jam" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="EEE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card12"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="INNOVATIA"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster12"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/innovation" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="EEE"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid7"
+                android:layout_below="@id/grid6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card13"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title13"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="VIRTUAL JOB FAIR"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster13"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/job" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="IT"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card14"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="MODEL MAKING"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster14"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/mode" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CIV"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid8"
+                android:layout_below="@+id/grid7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card15"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title15"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="MEMORY GAME"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster15"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/memorie" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CIV"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card16"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="POSTER PRESENTATION"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster16"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/poster" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CIV"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/grid9"
+                android:layout_below="@+id/grid8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card17"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title17"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="SKETCH UP"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster17"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/sketch" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="CIV"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card18"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="INVASION"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster18"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/invasion" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="MECH"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/grid10"
+                android:layout_below="@+id/grid9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card19"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title19"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="VELOCITY"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster19"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/velocity" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="MECH"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card20"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="MINUTE TO WIN IT"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster20"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/minute" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="PHARM"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/grid11"
+                android:layout_below="@+id/grid10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card21"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title21"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="SECOND TO SAY"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster21"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/speed" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="PHARM"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card22"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8C1717"
+                        android:text="TUG OF WAR"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+                        <ImageView
+                            android:id="@+id/poster22"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/tug" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="PHARM"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/grid12"
+                android:layout_below="@id/grid11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card23"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="50"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <Button
+                        android:id="@+id/title23"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8C1717"
+                        android:text="SPELL BEE"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:weightSum="50">
+
+
+                        <ImageView
+                            android:id="@+id/poster23"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:src="@drawable/spell" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:text="MBA"
+                            android:textAlignment="center"
+                            android:textStyle="italic" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+
+
         </RelativeLayout>
-
-
-    </android.support.v7.widget.CardView>
-
-
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card5"
-           android:layout_below="@+id/card4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="10dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="225dp"
-                android:padding="3dp">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="#8C1717"
-                    android:text="Model Making"
-                    android:textColor="#ffffff"
-                    android:id="@+id/title5" />
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:id="@+id/poster5"
-                    android:src="@drawable/mode"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"/>
-
-                <TextView
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/about5"
-                    android:textSize="12sp"
-                    android:textColor="#ffffff"
-                    android:textAlignment="center"
-                    android:background="#CD3333"
-                    android:id="@+id/content5"
-                    android:padding="5dp"
-                    android:layout_alignLeft="@+id/title5"
-                    android:layout_alignStart="@+id/title5"
-                    android:layout_below="@+id/title5"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="25dp"
-                    android:layout_marginLeft="5dp" />
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card6"
-           android:layout_below="@+id/card5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="10dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="225dp"
-                android:padding="3dp">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="#8C1717"
-                    android:text="TechKnows"
-                    android:textColor="#ffffff"
-                    android:id="@+id/title6" />
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:id="@+id/poster6"
-                    android:src="@drawable/technology"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginBottom="35dp"
-                    android:layout_marginLeft="5dp"/>
-
-                <TextView
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/about6"
-                    android:textSize="12sp"
-                    android:textColor="#ffffff"
-                    android:textAlignment="center"
-                    android:background="#CD3333"
-                    android:id="@+id/conten6"
-                    android:padding="5dp"
-                    android:layout_alignLeft="@+id/title6"
-                    android:layout_alignStart="@+id/title6"
-                    android:layout_below="@+id/title6"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginBottom="25dp"
-                    android:layout_marginLeft="5dp" />
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-
-
-        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/reg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="#59983b"
-            card_view:cardCornerRadius="30dp"
-            card_view:cardElevation="15dp"
-            card_view:cardUseCompatPadding="true"
-            android:layout_below="@+id/card6"
-            android:onClick="register">
-            <TextView
-                android:id="@+id/cont"
-                android:textColor="#ffffff"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Register"
-                android:gravity="center|bottom"
-                android:padding="10dp"
-                android:textSize="20sp"
-                android:layout_margin="10dp" />
-        </android.support.v7.widget.CardView>
-
-    </RelativeLayout>
     </ScrollView>
-    </RelativeLayout>
+
 
 </LinearLayout>

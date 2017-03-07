@@ -17,14 +17,7 @@ public class OpenRegistration extends Activity {
 
     String p;
     Intent in;
-    String s[] = {"App Challenge", "All Round Quiz", "4-Pics-1-Word", "Minute  To Win It", "Cyber Chase", "Check Your IQ",
-            "R.C.Racing", "Junk Yard", "Ram and Rom",
-            "Puzzle", "JAM", "Innovatia",
-            "Virtual Job Fair",
-            "Model Making", "Memory Game", "Poster Presentation", "Sketch Up",
-            "Invasion", "Velocity",
-            "Minute To Win It", "Second To Say", "Tug Of War",
-            "Spell Bee"};
+    String s[] = {"App Challenge","All Round Quiz","4-Pics-1-Word","Minute  To Win It","Cyber Chase","Check Your IQ", "R.C.Racing","Junk Yard","Ram and Rom", "Puzzle","JAM","Innovatia", "Virtual Job Fair", "Model Making","Memory Game","Poster Presentation","Sketch Up", "Invasion","Velocity", "Minute To Win It","Second To Say","Tug Of War", "Spell Bee"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

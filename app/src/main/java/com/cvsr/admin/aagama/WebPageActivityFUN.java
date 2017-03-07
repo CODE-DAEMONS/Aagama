@@ -42,7 +42,7 @@ public class WebPageActivityFUN extends Activity {
                 break;
             //ece
             case "Plan It":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
@@ -50,7 +50,7 @@ public class WebPageActivityFUN extends Activity {
                 break;
 
             case "Logo Quiz":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
@@ -58,7 +58,7 @@ public class WebPageActivityFUN extends Activity {
                 break;
 
             case "Investments":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
@@ -87,21 +87,21 @@ public class WebPageActivityFUN extends Activity {
                         Toast.LENGTH_LONG).show();
                 break;
             case "Brain Twister":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/18J94lj1cXpxGy2Kc3SG7Pv1pNRUJsGUC0ZixcgDSkoQ/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
             case "Minute To WIn It":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/18J94lj1cXpxGy2Kc3SG7Pv1pNRUJsGUC0ZixcgDSkoQ/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
             case "Crack It":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/18J94lj1cXpxGy2Kc3SG7Pv1pNRUJsGUC0ZixcgDSkoQ/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",

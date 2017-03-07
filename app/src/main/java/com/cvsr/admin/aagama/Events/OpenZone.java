@@ -8,11 +8,9 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import com.cvsr.admin.aagama.R;
 import com.cvsr.admin.aagama.Registration.OpenRegistration;
-import com.cvsr.admin.aagama.Registration.SkillRegistration;
 
 /**
  * Created by ADMIN on 2/3/2016.
@@ -27,7 +25,7 @@ public class OpenZone extends Fragment implements View.OnClickListener{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view=inflater.inflate(R.layout.open_zone, container, false);
+        view=inflater.inflate(R.layout.events_open_zone, container, false);
 
         k1=(CardView)view.findViewById(R.id.card1);
         k2=(CardView)view.findViewById(R.id.card2);
@@ -65,12 +63,14 @@ public class OpenZone extends Fragment implements View.OnClickListener{
         k10.setOnClickListener(this);
         k11.setOnClickListener(this);
         k12.setOnClickListener(this);
+        k13.setOnClickListener(this);
         k14.setOnClickListener(this);
         k15.setOnClickListener(this);
         k16.setOnClickListener(this);
         k17.setOnClickListener(this);
         k18.setOnClickListener(this);
         k19.setOnClickListener(this);
+        k20.setOnClickListener(this);
         k21.setOnClickListener(this);
         k22.setOnClickListener(this);
         k23.setOnClickListener(this);

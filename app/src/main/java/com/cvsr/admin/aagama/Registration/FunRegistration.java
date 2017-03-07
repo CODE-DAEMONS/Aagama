@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.cvsr.admin.aagama.Description.FunDescription;
 import com.cvsr.admin.aagama.R;
 import com.cvsr.admin.aagama.WebPageActivityFUN;
+import com.cvsr.admin.aagama.WebPageActivityOPEN;
 
 /**
  * Created by ADMIN on 3/7/2017.
@@ -33,77 +34,20 @@ public class FunRegistration extends Activity
 
         Intent in1 = getIntent();
         p = in1.getStringExtra("event");
-
-
-        //cse
-        if(p=="Selfie Story"||p=="Pie Face Challenge"){
-
-           m="cse";
-//ece
-        }
-        else if(p=="Plan It"||p=="Logo Quiz"||p=="Investments"){
-
-          m="ece";
-
-        }
-        //civil
-
-        else if(p=="Scary House"||p=="Treasure Hunt"||p=="Dubsmash"){
-
-          m="civ";
-        }
-
-        //mech
-        else if(p=="Brain Twister"||p=="Minute To WIn It"||p=="Crack It")
-        {
-
-            m="mech";
-
-        }
-
-
-        //pharm
-        else if(p=="Filmy Quiz"||p=="Halloween")
-        {
-
-            m="pharm";
-
-
-        }
-
-        //chem
-        else
-        {
-
-            m="chem";
-
-        }
-
-
-        b1=(Button)findViewById(R.id.button3);
-        b1.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-
-                in = new Intent(getApplicationContext(), WebPageActivityFUN.class);
-                in.putExtra("event", p);
-                startActivity(in);
-
-
-
-            }
-        });
-
-
-
-
-
     }
     public void rules(View view) {
 
-        in = new Intent(getApplicationContext(), FunDescription.class);
+        in = new Intent(getApplicationContext(),FunDescription.class);
+        in.putExtra("event",p);
+        startActivity(in);
+    }
+
+    public void reg(View view) {
+        in = new Intent(getApplicationContext(), WebPageActivityFUN.class);
         in.putExtra("event", p);
         startActivity(in);
+
+
     }
     
 

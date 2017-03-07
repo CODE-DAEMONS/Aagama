@@ -91,14 +91,14 @@ public class WebPageActivitySKILL extends Activity {
                         Toast.LENGTH_LONG).show();
                 break;
             case "Model Making":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
             case "Cosplay AD":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",

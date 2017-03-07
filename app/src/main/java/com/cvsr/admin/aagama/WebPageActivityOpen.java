@@ -86,21 +86,21 @@ public class WebPageActivityOPEN extends Activity {
                         Toast.LENGTH_LONG).show();
                 break;
             case "Puzzle":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
             case "JAM":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
             case "Innovatia" :
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",
@@ -146,7 +146,7 @@ public class WebPageActivityOPEN extends Activity {
                 break;
 
             case "Invasion":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/18J94lj1cXpxGy2Kc3SG7Pv1pNRUJsGUC0ZixcgDSkoQ/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",
@@ -154,7 +154,7 @@ public class WebPageActivityOPEN extends Activity {
                 break;
 
             case "Velocity":
-                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/18J94lj1cXpxGy2Kc3SG7Pv1pNRUJsGUC0ZixcgDSkoQ/edit?usp=sharing"));
                 startActivity(in);
 
                 Toast.makeText(this,"redirected to your web browser",

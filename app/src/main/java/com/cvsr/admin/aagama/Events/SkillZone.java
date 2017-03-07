@@ -25,7 +25,7 @@ public class SkillZone extends Fragment implements View.OnClickListener {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.skill_zone, container, false);
+        view = inflater.inflate(R.layout.events_skill_zone, container, false);
 
         c1=(CardView)view.findViewById(R.id.cards1);
         c2=(CardView)view.findViewById(R.id.cards2);
