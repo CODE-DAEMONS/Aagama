@@ -26,7 +26,7 @@ public class EventsActivity extends AppCompatActivity{
 
 
 
-    ImageButton cse,ece,eee,it,civ,mec,che,pharm,mba;   //TechZone
+    ImageButton cse,ece,eee,it,civ,mec,pharm,mba;   //TechZone
     TabLayout tablayout;
     ViewPager viewpager;
     Intent obj;
@@ -138,14 +138,14 @@ onResume();
         startActivity(in1);
     }
 
-
+/*
     public void che(View view) {
 onResume();
         che = (ImageButton) findViewById(R.id.imageButton3);
         Intent in1 = new Intent(EventsActivity.this, TechZoneCards.class);
         in1.putExtra("name", "che");
         startActivity(in1);
-    }
+    }*/
 
 
     public void pharm(View view) {

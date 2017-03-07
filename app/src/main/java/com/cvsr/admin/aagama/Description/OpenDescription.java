@@ -52,12 +52,7 @@ public class OpenDescription extends Activity{
                         "\n" +
                         "1. K.Yamini -9490667411\n" +
                         "2. M.Pravalika-8008421764\n" +
-                        "3. A.Arundhathi-9553832037\n" +
-                        "\n" +
-                        "FACULTY COORDINATORS:\n" +
-                        "\n" +
-                        "1. Mr.B.Ravinder Reddy\n" +
-                        "2. Mrs.S.Deepika\n";
+                        "3. A.Arundhathi-9553832037\n";
                 tv1.setText(text1);
                 tv.setText(text);
                 break;
@@ -95,12 +90,7 @@ public class OpenDescription extends Activity{
                     "\n" +
                     "1. Nithin-8179956201\n" +
                     "2. Preeti Padal-9704105197\n" +
-                    "3. R.Ramu-9640216151\n" +
-                    "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. Mrs.V.Jyothi\n" +
-                    "2. Mr.Ravindra naik\n";
+                    "3. R.Ramu-9640216151\n";
             tv1.setText(text1);
             tv.setText(text);
             break;
@@ -145,12 +135,7 @@ public class OpenDescription extends Activity{
                     "\n" +
                     "1. E.Usha-7893569140\n" +
                     "2. P.Deepika-8179850690\n" +
-                    "3. P.Swetha-7659074331\n" +
-                    "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. Mrs.G.Sudeepthi\n" +
-                    "2. Mr.K.Raghavendra rao\n";
+                    "3. P.Swetha-7659074331\n";
             tv1.setText(text1);
             tv.setText(text);
             break;
@@ -183,12 +168,7 @@ public class OpenDescription extends Activity{
                     "\n" +
                     "1. R.Roja Romani- 9700819970\n" +
                     "2. A.Kaveri -7729091462\n" +
-                    "3. P.umeshchandra-9866239639\n" +
-                    "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. Mrs.G.Lavanya\n" +
-                    "2. Mr.A.Jeeshitha\n";
+                    "3. P.umeshchandra-9866239639\n";
             tv1.setText(text1);
             tv.setText(text);
             break;
@@ -218,12 +198,7 @@ public class OpenDescription extends Activity{
                     "1. Ch.Harika – 8801122029\n" +
                     "2. A.Sanjana- 8121502639\n" +
                     "3. K.Shamanthaka Mani-9063748493\n" +
-                    "4. J.Reena reddy-9440682159\n" +
-                    "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. Mrs.P.Rajeswhari\n" +
-                    "2. Mrs.P.Vinay sree\n";
+                    "4. J.Reena reddy-9440682159\n" ;
             tv1.setText(text1);
             tv.setText(text);
             break;
@@ -234,10 +209,7 @@ public class OpenDescription extends Activity{
                     "\n" +
                     "K.Ramya-9490827927\n" +
                     "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. Mr.A.Obulesh\n" +
-                    "2. Mr.A.Mallikarjuna Reddy\n";
+                    "FACULTY COORDINATORS:\n";
             tv1.setText(text1);
             tv.setText(text);
             break;
@@ -362,11 +334,7 @@ public class OpenDescription extends Activity{
                     "3. Participants should carry their college or school ID cards.\n" +
                     "4. Organizers reserve the right to disqualify teams on the grounds of misbehavior and use of unfair means. Their decision is considered final and not subjected to dispute.\n" +
                     "\n" +
-                    "FACULTY COORDINATOR:\n" +
-                    "\n" +
-                    "1. M.SREEKAR  -8978250125\n" +
-                    "2. YAKUB ALI    \n" +
-                    "\n" +
+
                     "STUDENT COORDINATORS:\n" +
                     "\n" +
                     "1. A.SINDHURI (9396515834)\n" +
@@ -396,11 +364,6 @@ public class OpenDescription extends Activity{
                     "2. Use of mobile phones or any other electronic or communication device is prohibited during the event.\n" +
                     "3. Participants should carry their college or school ID cards.\n" +
                     "4. Organizers reserve the right to disqualify teams on the grounds of misbehavior and use of unfair means. Their decision is considered final and not subjected to dispute.                              5. Teams exceeding the time limit are liable for disqualification.\n" +
-                    "\n" +
-                    "FACULTY COORDINATOR:\n" +
-                    "\n" +
-                    "1. MD.YASEEN (9866432512)\n" +
-                    "2. K.CHAITANYA KUMARB (9390632732)\n" +
                     "\n" +
                     "STUDENT COORDINATORS:\n" +
                     "\n" +
@@ -434,11 +397,6 @@ public class OpenDescription extends Activity{
                     "3. Participants should carry their college or school ID cards.\n" +
                     "4. Organizers reserve the right to disqualify teams on the grounds of misbehavior and use of unfair means. Their decision is considered final and not subjected to dispute.\n" +
                     "5. Teams exceeding the time limit are liable for disqualification.\n" +
-                    "\n" +
-                    "FACULTY COORDINATORS:\n" +
-                    "\n" +
-                    "1. B.NAGESHWAR RAO - 8978138142\n" +
-                    "2. K.BHADRAJI - 9618041897\n" +
                     "\n" +
                     "STUDENT COORDINATORS:\n" +
                     "\n" +

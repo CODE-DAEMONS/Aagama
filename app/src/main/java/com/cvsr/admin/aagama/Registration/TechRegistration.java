@@ -19,13 +19,13 @@ public class TechRegistration extends TechZoneCards {
     Intent in;
 
     String cse[]={"Paper Presentation","Poster Presentation","Hunt The Code","Webpage Design","Dumb Charades"};
-    String ece[]={"Paper Presentation_1","Poster Presentation_1","Project Presentation_1","Technical Quiz_1","Circuitrix_1"};
-    String eee[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","JAM_2"};
+    String ece[]={"Paper Presentation_1","Poster Presentation_1","Project Presentation_1","Technical Quiz_1"};
+    String eee[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","Tech Hunt_2"};
     String it[]={"Paper Presentation_3","Bug The Bug_3","Code Cracker_3","Technical Quiz_3"};
-    String civ[]={"Paper Presentation_4","Poster Presentation_4","Project Presentation_4","CAD_4","Model Making_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
-    String mec[]={"Paper Presentation_5","Velocity_5","Technical Quiz_5"};
-    String che[]={"Paper Presentation_6","Poster Presentation_6","Compound Preparation_6","Technical Quiz_6"};
-    String pha[]={"Poster Presentation_7","Pharma Quiz_7","JAM_7"};
+    String civ[]={"Paper Presentation_4","Project Presentation_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
+    String mec[]={"Paper Presentation_5"};
+
+    String pha[]={"Poster Presentation_7","Pharma Quiz_7","JAM_7","Anurag Talent Hunt_7"};
     String mba[]={"Paper Presentation_8","Poster Presentation_8","Group Discussion_8","Business Plan_8"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +68,7 @@ public class TechRegistration extends TechZoneCards {
 
 
 //ELECTRONICS ANDCOMMUNICATION ENGINEERING
-        if(s.equals(ece[0])||s.equals(ece[1])||s.equals(ece[2])||s.equals(ece[3])||s.equals(ece[4])){
+        if(s.equals(ece[0])||s.equals(ece[1])||s.equals(ece[2])||s.equals(ece[3])){
             in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
             startActivity(in);
 
@@ -125,17 +125,17 @@ public class TechRegistration extends TechZoneCards {
 
 
 //CHEMICAL ENGINEERING
-        if(s.equals(che[0])||s.equals(che[1])||s.equals(che[2])||s.equals(che[3])){
+      /*  if(s.equals(che[0])||s.equals(che[1])||s.equals(che[2])||s.equals(che[3])){
             in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
             startActivity(in);
 
             Toast.makeText(this,"redirected to your web browser",
                     Toast.LENGTH_LONG).show();
-        }
+        }*/
 
 
 //PHARMACY DEPARTMENT
-        if(s.equals(pha[0])||s.equals(pha[1])||s.equals(pha[2])){
+        if(s.equals(pha[0])||s.equals(pha[1])||s.equals(pha[2])||s.equals(pha[3])){
             in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
             startActivity(in);
 

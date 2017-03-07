@@ -50,6 +50,9 @@ public class CardAdapter_6 extends RecyclerView.Adapter<CardAdapter_6.ViewHolder
 
 
 
+
+
+
    }
 
    @Override

@@ -76,10 +76,10 @@ public class TechZoneCards extends EventsActivity {
                     mAdapter = new CardAdapter_5();
                     mRecyclerView.setAdapter(mAdapter);
                     break;
-                case "che":
+               /* case "che":
                     mAdapter = new CardAdapter_6();
                     mRecyclerView.setAdapter(mAdapter);
-                    break;
+                    break;*/
                 case "pharm":
                     mAdapter = new CardAdapter_7();
                     mRecyclerView.setAdapter(mAdapter);

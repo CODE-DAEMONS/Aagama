@@ -56,8 +56,8 @@ public class CardAdapter_2 extends RecyclerView.Adapter<CardAdapter_2.ViewHolder
 
 
        cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName("jAM");
-       cardSetterGetter.setThumbnail(R.drawable.jam);
+       cardSetterGetter.setName("Tech Hunt");
+       cardSetterGetter.setThumbnail(R.drawable.treasure);
        mItems.add(cardSetterGetter);
 
 
@@ -90,7 +90,7 @@ public class CardAdapter_2 extends RecyclerView.Adapter<CardAdapter_2.ViewHolder
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         int position;
-        String s[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","JAM_2"};
+        String s[]={"Paper Presentation_2","Poster Presentation_2","Project Presentation_2","Circuitrix_2","Technical Quiz_2","Tech Hunt_2"};
         public ImageView imgThumbnail;
         public TextView tvMovie;
 
