@@ -33,7 +33,7 @@ public class TechDescription extends TechRegistration {
 //COMPUTER SCIENCE AND ENGINEERING
                 case "Paper Presentation":
                  text1="Paper Presentation";
-                 text ="Description:\n" +
+                 text ="DESCRIPTION:\n" +
                          "\n" +
                          "“I am not ,but m trying to” the phrases of Winston Churchill chilled out the hearts of many people. This platform is to expose your talent and in depth knowledge on your interested area. Come, chill out the hearts of the people with your innovative presentation.\n" +
                          "\n" +
@@ -57,7 +57,7 @@ public class TechDescription extends TechRegistration {
                     break;
                 case "Poster Presentation":
                     text1="Poster Presentation";
-                    text = "Description:\n" +
+                    text = "DESCRIPTION:\n" +
                             "\n" +
                             "In this event, we are looking for a potential and creative designer who has the ability to design a poster and has an eye for art. Don’t miss this onground contest to showoff your skills in designing.\n" +
                             "\n" +
@@ -80,7 +80,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Hunt The Code":
                     text1= "Hunt The Code";
-                    text = "Description:\n" +
+                    text = "DESCRIPTION:\n" +
                             "\n" +
                             "This event is all about finding the treasure by hunting the code in an innovative way.\n" +
                             "This event follows 2 stages\n" +
@@ -111,7 +111,7 @@ public class TechDescription extends TechRegistration {
                     break;
                 case "Webpage Design":
                     text1="Webpage Design";
-                    text="Description:\n" +
+                    text="DESCRIPTION::\n" +
                             "\n" +
                             "Any enterprise in online portal is rated by the creativity involved in its website. So here is a chance to showcase your creativity!\n" +
                             "\n" +
@@ -135,7 +135,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Dumb Charades":
                     text1="Dumb Charades";
-                    text="Description:\n" +
+                    text="DESCRIPTION:\n" +
                             "\n" +
                             "Come on! Let’s learn technical words adding some more fun. The game goes like this…..\n" +
                             "\n" +
@@ -170,7 +170,7 @@ public class TechDescription extends TechRegistration {
 //ELECTRONICS AND COMMUNICATION ENGINEERING
                 case "Paper Presentation_1":
                     text1="Paper Presentation";
-                    text=" Description:\n" +
+                    text=" DESCRIPTION:\n" +
                             "\n" +
                             "Grab this opportunity to publish your paper and get regarded as one of the best papers ever published!!\n" +
                             "\n" +
@@ -198,7 +198,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Poster Presentation_1":
                     text1="Poster Presentation";
-                    text="Description \n" +
+                    text="DESCRIPTION: \n" +
                             "\n" +
                             "Get a chance to win the best poster presentation award in AAGAMA 2k17 !!\n" +
                             "Topic: Recent development in technology in the field of electronics and communication engineering.\n" +
@@ -224,7 +224,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Project Presentation_1":
                     text1="Project Presentation";
-                    text="Description:\n" +
+                    text="DESCRIPTION:\n" +
                             "\n" +
                             "Hello Engineers! Rise up in your field by exhibiting your project in AAGAMA 2k17 and grab a chance to win the prize!\n" +
                             "\n" +
@@ -248,7 +248,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Technical Quiz_1":
                     text1="Technical Quiz ";
-                    text="Description:\n" +
+                    text="DESCRIPTION:\n" +
                             "\n" +
                             "Hello everyone! The budding engineers of the world! The time has come where you have an opportunity to stand high among everyone! The place where you can analyze and improve your knowledge towards your core!! \n" +
                             "\n" +
@@ -281,48 +281,7 @@ public class TechDescription extends TechRegistration {
                     tv.setText(text);
                     break;
 
-                case "Circuitrix_1":
-                    text1="Circuitrix";
-                    text=" About:\n" +
-                            "\n" +
-                            "An event which tests the very basics of electronics, this is an on the spot event which gives you the opportunity to showcase your skills at designing and implementing electronic circuits. And a little simulation never hurt anybody. All you are required to do is to brush up on your concepts and get ready to unleash your designing skills in the 'CIRCUITRIX' battlefield.\n" +
-                            "\n" +
-                            "The event consists of:\n" +
-                            "\n" +
-                            "•\tQuestions on Analog Communications\n" +
-                            "•\tQuestions on Digital Communications\n" +
-                            "•\tCircuit analyzing\n" +
-                            "•\tCircuit building \n" +
-                            "•\tMultisim software\n" +
-                            "\n" +
-                            "Rules:\n" +
-                            "\n" +
-                            "•\tA team shall consists of max two persons.\n" +
-                            "•\tThe participants shall not use any mobile or other electronic instruments.\n" +
-                            "•\tThe questions shall be in the form of puzzles, analyzing circuits and building circuits.\n" +
-                            "•\tThere is time limit for every round. \n" +
-                            "•\tAudience shall not give any hints or clues to the competitors.\n" +
-                            "\n" +
-                            "Stage Rounds:\n" +
-                            "\n" +
-                            "•\tFirst Round:\n" +
-                            "              This round is the aptitude test, which tests the basics of digital and analog knowledge of the participants. The questions will be in form of puzzles. The participants should come in teams of two. \n" +
-                            "The best teams will be promoted to the second round. \n" +
-                            "•\tSecond Round:\n" +
-                            "          The selected teams will be tested on their simulation skills. The participants will be given a circuit which they need to simulate using software like MULTISIM. \n" +
-                            "Based on the performance teams will be promoted to the final round. \n" +
-                            "•\tThird Round: \n" +
-                            "        A problem statement will be provided. The third round is about building a circuit based on the given problem statement. The accuracy and the approach in building the circuit is observed. \n" +
-                            "The best teams will be awarded \n" +
-                            "\n" +
-                            "Student coordinators:\n" +
-                            "\n" +
-                            "1. R.Sai Alekhya              +919704686459\n" +
-                            "2. Akhila                          +919063779509\n";
 
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
 //ELECTRICAL AND ELECTRONICS ENGINEERING
                 case "Paper Presentation_2":
@@ -388,45 +347,6 @@ public class TechDescription extends TechRegistration {
                     break;
 
 
-                case "Circuitrix_2":
-                    text1="Circuitrix";
-                    text=" Event Outline:\n" +
-                            "\n" +
-                            "     In this event a single candidate or a group of 2 can participate. This event consists of total 3 rounds.\n" +
-                            "\n" +
-                            "\n" +
-                            "Round 1: \n" +
-                            "\n" +
-                            "1.\tConnecting circuits, in these level contestants have to connect given circuits on a bread board within a stipulated time. \n" +
-                            "2.\tQualifiers of this level will move to the next level. \n" +
-                            "\n" +
-                            "\n" +
-                            "Round 2: \n" +
-                            "\n" +
-                            "1.\tFinding parameters, in this level contestants have to connect given circuit and find out parameters across the circuit elements (Ex: voltage, current) within stipulated time.\n" +
-                            "2.\t Qualifiers of this level will move to the 3rd level which is the final level. \n" +
-                            "\n" +
-                            "Round 3: \n" +
-                            "\n" +
-                            "1.\tSolving circuits, in this level contestants have to connect given circuits and find out missing parameters (Ex: voltage, current, resistance, etc) theoretically and practically within stipulated time. \n" +
-                            "2.\tTop 2 contestants who finish this level earliest will be declared winners of this event. \n" +
-                            "\n" +
-                            "Rules and Regulations:\n" +
-                            "\n" +
-                            "1.\tThe number of members for a team is limited to a maximum of 2.\n" +
-                            "2.\tAll decision of judges and event coordinators shall be treated as final and bring to         all.\n" +
-                            "3.\tAny malpractice is strictly treated and is submitted to the AAGAMA disciplinary committee.\n" +
-                            "4.\tSpot registrations are available\n" +
-                            "\n" +
-                            "\n" +
-                            "\n" +
-                            "Student Coordinators:\n" +
-                            "B.RAMYASREE (8184926622)\n" +
-                            "P.MAHESH (8142523093)\n";
-
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
 
 
@@ -473,37 +393,42 @@ public class TechDescription extends TechRegistration {
                     break;
 
 
-                case "JAM_2":
-                    text1="Just A Minute";
-                    text=" Description:\n" +
+                case "Tech Hunt_2":
+                    text1="Tech Hunt";
+                    text=" DESCRIPTION:\n" +
                             "\n" +
-                            "An event which drives out Stage fear as well as brings out Leadership skills with fun and knowledge..!! .\n" +
+                            "An event which brings out the scavenger in you, where each team races against time through the daunting physical tasks to be the first in finding the hidden treasure.\n" +
+                            "\n" +
+                            "\n" +
                             "Event Outline:\n" +
-                            "The event will consist of two rounds: The Preliminary round and The Finals. The strength of the team must be 2 members.\n" +
+                            "\n" +
+                            "The event will consist of two rounds: The Preliminary round and The Finals. The strength of the team must be 3 members.\n" +
                             "\n" +
                             "\n" +
                             "Round 1(Preliminary round):\n" +
                             "\n" +
-                            "In this round, team needs to pitch on the topic which is selected by them in just one minute. \n" +
-                            "Teams who reached the benchmark of judges will be moved to next round.\n" +
+                            "This is the preliminary round which is a written test. The participants will have to answer a questionnaire based on topics related to science and mathematics. They will be given 30 minutes to answer the questions and the Top 30 teams will qualify for the next round.\n" +
                             "\n" +
                             "\n" +
                             "Round 2(Finals):\n" +
                             "\n" +
-                            "In this round, teams need to pick one chit from group of chits. Team will be given 10 minutes to discuss about the topic about the topic. Team needs to pitch about the topic in just one minute. Team which performs good and meets the requirements are winners. \n" +
+                            "In this round, the teams will be provided with their first clue simultaneously which when deciphered leads them to the next location in the campus where they have to perform a task revealed on spot to obtain the next clue. Following the series of clues, the first team to decipher all the clues will be adjudged as the winners of the event. Along with them will be a committee member to look at their time and tally the points.\n" +
                             "\n" +
                             "\n" +
                             "Rules and regulations:\n" +
                             "\n" +
                             "1. Any student within the age group of 14- 25 years can participate and each team should consist of not more than three members.\n" +
                             "2. Use of mobile phones or any other electronic or communication device is prohibited during the event.\n" +
-                            "3. Participants should carry their college or school ID cards.\n" +
-                            "4. Organizers reserve the right to disqualify teams on the grounds of misbehavior and use of unfair means. Their decision is considered final and not subjected to dispute.                              5. Teams exceeding the time limit are liable for disqualification.\n" +
+                            "3. Participants should note that they must accompany the committee member assigned to them till the event ends.\n" +
+                            "4. The clues are to be found in a particular order. Manipulation of the order of clues will lead to disqualification.\n" +
+                            "5. During the event team members cannot split up to find different clues. The entire team must stay together during the competition.\n" +
+                            "6. Participants should carry their college or school ID cards.\n" +
+                            "7. Organizers reserve the right to disqualify teams on the grounds of misbehaviour and use of unfair means. Their decision is considered final and not subjected to dispute.\n" +
                             "\n" +
                             "\n" +
                             "STUDENT COORDINATORS:\n" +
-                            "P.MOUNIKA (9160266700)\n" +
-                            "G.SRAVAN (9666281505)\n";
+                            "1. T.S.SHASHANK (8712853934)\n" +
+                            "2. S.SRIJA (8019547606)\n";
 
                     tv1.setText(text1);
                     tv.setText(text);
@@ -513,30 +438,31 @@ public class TechDescription extends TechRegistration {
 
                 case "Paper Presentation_3" :
                     text1="Paper Presentation";
-                    text="  Description :\n" +
+                    text=" DESCRIPTION:\n" +
                             "\n" +
-                            "“I am not, But M trying to” the phrases of Winston Churchill chilled out the hearts of many people. This platform a to expose your talent and in-depth knowledge on your interested areas. Come, chill out the hearts of the people with your innovative presentation.\n" +
+                            "“I am not, But I am trying to” the phrases of Winston Churchill chilled out hearts of many people. This is a platform to expose your talent and in-depth knowledge on your interested areas. Come chill out the hearts of people with your innovative presentation.\n" +
                             "\n" +
-                            "  TechDescription & Regulations\n" +
                             "\n" +
-                            "Maximum of 2 members per layout_team1 are allowed\n" +
+                            "Rules and Regulations \n" +
                             "\n" +
-                            "Abstract should be of only 1 page and the paper can be maximum of 15 pages\n" +
+                            "•\tMaximum of 2 members per team are allowed\n" +
+                            "•\tAbstract should be only 1 page and paper can be maximum 15 pages\n" +
+                            "•\tAbstract should be mailed prior to the event\n" +
+                            "•\tOnly technical topics related to Computer Science and Information Technology are permitted\n" +
+                            "•\tHard copy should be submitted to the event co-ordinator at the time of event\n" +
                             "\n" +
-                            "Abstract should be mailed prior to the event\n" +
                             "\n" +
-                            "Only technical topics related to computer science and information technology are permitted\n" +
+                            "Structure of Paper Presentation\n" +
                             "\n" +
-                            "Hard copy should be submitted to the event co-ordinator at the time of event\n" +
+                            "•\tIntroduction\n" +
+                            "•\tBody \n" +
+                            "•\tConclusion\n" +
                             "\n" +
-                            "Abstracts have to be sent to teh email Id:aagama2k16civil@it.ac.in before 12th march,2016\n" +
                             "\n" +
-                            "The mail should contain participant’s name, title of the poster and the abstract.\n" +
-                            "\n" +
-                            "  Event Cordinators :\n" +
-                            "\n" +
-                            "K Sampath -9505550215\n" +
-                            "B Swaroopa -9963298994";
+                            "Student Co-ordinators\n" +
+                            "1. G. Sindhu Priya (919154365089)\n" +
+                            "2. M. Geethanjali (+918977411412)\n" +
+                            "3. A. Ajay Chandra Gopal (7396650607)\n";
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
@@ -544,91 +470,111 @@ public class TechDescription extends TechRegistration {
 
                 case "Bug The Bug_3" :
                     text1="Bug The Bug";
-                    text="Description :\n" +
+                    text="DESCRIPTION:\n" +
                             "\n" +
-                            "A code with errors (C Language) will be given to the teams, they should find the errors and rectify them. The rectified code should be executed without errors and warning\n" +
+                            "This event consists of questions on C++ and Logical Puzzles.\n" +
                             "\n" +
-                            "  TechDescription & Regulations :\n" +
+                            "RULES AND REGULATIONS\n" +
                             "\n" +
-                            "Maximum of 2 member per layout_team1 are allowed\n" +
+                            "1.\tThe participants are not allowed to use mobiles or electronic devices or internet.\n" +
+                            "2.\tThe questions shall be in the form of multiple choices.\n" +
+                            "3.\tOnly one participant can participate at a time.\n" +
+                            "4.\tThe decision of the coordinator is final and shall not be subjected to any changes.\n" +
+                            "5.\tThere are no penalties for incorrect answer and only your first response will be considered.\n" +
+                            "6.\tAny participant found indulging in any forms of malpractice will be immediately disqualified.\n" +
                             "\n" +
-                            "Complier will be specified by the department\n" +
                             "\n" +
-                            "The statement containing the error must be rectified only; removal of the statement will lead to disqualification\n" +
+                            "STRUCTURE OF THE EVENT\n" +
                             "\n" +
-                            "Time limit may vary based on the code given\n" +
+                            "•\tRound 1- A total of 15 questions are put forth to all the participants in which they need to find the bugs.\n" +
+                            "•\tRound 2- Consists of four puzzles which should be answered logically.\n" +
                             "\n" +
-                            "  Event Cordinators :\n" +
+                            "STUDENT COORDINATORS\n" +
                             "\n" +
-                            "K SaiKiran-8712304666\n" +
-                            "T Nivedita -9550623152";
+                            "1. Sonali Ghatay (9705940142)\n" +
+                            "2. Y.Snigdha (9542897884)\n" +
+                            "3. Y.Mahitha (9704173828)\n";
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
 
 
-                case "Code Race_3" :
-                    text1="Code Race";
-                    text=" Description :\n" +
+                case "Code Cracker_3" :
+                    text1="Code cracker";
+                    text=" Description\n" +
                             "\n" +
-                            "Task with specified input and corresponding output will be given. Participants who completes the task first will be the winner\n" +
+                            "You have the skills, you have the knowledge but do you have what it takes to crack our codes faster than others?\n" +
                             "\n" +
-                            "  TechDescription & Regulations :\n" +
+                            "The event consist questions on:\n" +
                             "\n" +
-                            "A maximum of 3 members per layout_team1 are allowed\n" +
+                            "•\tC Programming\n" +
                             "\n" +
-                            "10 minutes will be given for understanding the question and 35 minutes for execution\n" +
+                            "Rules and Regulations:\n" +
                             "\n" +
-                            "If none of the teams are able to complete the task in the specified time them extra time will be given\n" +
+                            "1.\tThe participants will not be allowed to carry mobile phones or any other electronic devices\n" +
+                            "2.\tThe participants will be given question papers and must execute the programs in their given system.\n" +
+                            "3.\tThe decision of the coordinators will be final.\n" +
                             "\n" +
-                            "Any software language can be used\n" +
+                            "Structure of event:\n" +
                             "\n" +
-                            "Usage of internet is restricted and if found will be disqualified\n" +
+                            "The quiz consists of three rounds, the 5 participants who execute the code faster than others will proceed to the next round.\n" +
+                            "•\tRound 1: Consists of  2 questions and the 5 fastest participants of each batch will move on to the next round. Each batch consists of a maximum of 30 participants.\n" +
+                            "•\tRound 2: The winners of round 1 will be given one question and the 5 fastest participants will move on to round 3.\n" +
+                            "•\tRound 3:The winners of round 2 will be given one question and the participant who executes the code the fastest will be crowned the winner of code cracker\n" +
                             "\n" +
-                            "  Event Cordinators :\n" +
-                            "\n" +
-                            "S Parichay -8790350042\n" +
-                            "T Akshitha-8520829359";
-
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-//CIVIL ENGINERING
-
-                case "Paper Presentation_4" :
-                    text1="PAPER PRASTUTI";
-                    text=   "Description\n" +
-                            "\n" +
-                            " In this event students are going to give their innovative ideas or they are going to choose a topic and present that should be of technical one.\n" +
-                            "\n" +
-                            "RULES AND REGULATIONS:\n" +
-                            "\n" +
-                            "•\tHe/She should complete the presentation on time.\n" +
-                            "•\tThere is no extra time was given to complete presentation.\n" +
-                            "•\tIndividual was going to present the topic.\n" +
-                            "•\tListen and respect while others ask questions at the end not to argue with them.\n" +
-                            "•\tThere should be proper conclusion at the end of presentation.\n" +
-                            "\n" +
-                            "STRUCTURE:\n" +
-                            "\n" +
-                            " We are going to give only five minutes to students in that time he should able to complete his/her presentation.\n" +
-                            "First minute - introduction part for the topic.\n" +
-                            "Second and third minute- explanation about topic.\n" +
-                            "Fourth minute- conclusion part.\n" +
-                            "Fifth minute- questioning.\n" +
-                            "\n" +
-                            "STUDENT COORDINATORS:\n" +
-                            "1. KRANTHI KUMAR (8096003472)\n" +
-                            "2. SAI TEJ (9493369171)\n";
+                            "Student Coordinators:\n" +
+                            "• C Sankeerth (9652101839)\n" +
+                            "• B Rohit (8008747832)\n" +
+                            "•\tTarun K +919248084017\n";
 
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
 
+                case "Technical Quiz_3" :
+                    text1="Technical Quiz";
+                    text=" DESCRIPTION:\n"+
+                            "\n" +
+                            "You have the skills, you have the knowledge but do you have what it takes to crack our codes faster than others?\n" +
+                            "\n" +
+                            "The event consist questions on:\n" +
+                            "\n" +
+                            "•\tC Programming\n" +
+                            "\n" +
+                            "Rules and Regulations:\n" +
+                            "\n" +
+                            "1.\tThe participants will not be allowed to carry mobile phones or any other electronic devices\n" +
+                            "2.\tThe participants will be given question papers and must execute the programs in their given system.\n" +
+                            "3.\tThe decision of the coordinators will be final.\n" +
+                            "\n" +
+                            "Structure of event:\n" +
+                            "\n" +
+                            "The quiz consists of three rounds, the 5 participants who execute the code faster than others will proceed to the next round.\n" +
+                            "•\tRound 1: Consists of  2 questions and the 5 fastest participants of each batch will move on to the next round. Each batch consists of a maximum of 30 participants.\n" +
+                            "•\tRound 2: The winners of round 1 will be given one question and the 5 fastest participants will move on to round 3.\n" +
+                            "•\tRound 3:The winners of round 2 will be given one question and the participant who executes the code the fastest will be crowned the winner of code cracker\n" +
+                            "\n" +
+                            "Student Coordinators:\n" +
+                            "• C Sankeerth (9652101839)\n" +
+                            "• B Rohit (8008747832)\n" +
+                            "•\tTarun K +919248084017\n";
 
-                case "Poster Presentation_4" :
-                    text1="CARTEL PRESENTATION";
-                    text="Description :\n" +
+                    tv1.setText(text1);
+                    tv.setText(text);
+                    break;
+
+
+
+
+
+
+
+//civil department
+
+
+                case "Project Presentation_4" :
+                    text1="Pariyojana Prastuti";
+                    text=   "DESCRIPTION:\n" +
                             "\n" +
                             "THE POSTER –A Special form of presentation which speaks itself. The poster should be able to stand on its own as a clear, without any explanation from you.\n" +
                             "\n" +
@@ -642,36 +588,16 @@ public class TechDescription extends TechRegistration {
                             "•\tALL POSTER PRESENTERS SHOULD BE PRESENT ON THE FIRST DAY\n" +
                             "•\tEACH TEAM COMPRISES OF MAXIMUM 2 MEMBERS\n" +
                             "\n" +
+                            "\n" +
                             "STRUCTURE:\n" +
                             "\n" +
                             "Poster should be presented according to the theme given.\n" +
                             "\n" +
+                            "\n" +
                             "STUDENT CO-ORDINATOR:\n" +
-                            "1. R.SHARATH REDDY-8464805147\n" +
-                            "2. NAVEEN KUMAR-8790305229\n";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-                case "Project Presentation_4" :
-                    text1="PARIYOJANA PRASTUTI";
-                    text="Description\n" +
                             "\n" +
-                            "It is description about the project which is either Power point presentation or model project presentation.\n" +
-                            "\n" +
-                            "Rules and Regulations:\n" +
-                            "\n" +
-                            "•\tOne should give clear description about the project in specified time.\n" +
-                            "•\tNumber of participants: Individual or Maximum three.\n" +
-                            "•\tTopic should not be related to caste, Gender and Religion.\n" +
-                            "\n" +
-                            "Structure:\n" +
-                            "\n" +
-                            "•\tHe/She should able to present the project with in the given time.\n" +
-                            "\n" +
-                            "Student Coordinators:\n" +
-                            "1. Vinay Jain – 9505569683\n" +
-                            "2. Indrakaran - 9676065034\n";
+                            "R.SHARATH REDDY-8464805147\n" +
+                            "NAVEEN KUMAR-8790305229\n";
 
                     tv1.setText(text1);
                     tv.setText(text);
@@ -679,40 +605,9 @@ public class TechDescription extends TechRegistration {
 
 
 
-
-
-
-
-                case "CAD_4" :
-                    text1="TVARITA CADD";
-                    text="  Description :\n" +
-                            "\n" +
-                            "This  is a platform where participants are given hardcopy of a building plan which they have to digitalize using Auto CAD software.\n" +
-                            "\n" +
-                            "RULES AND REGULATIONS:\n" +
-                            "\n" +
-                            "•\tTime limit  is  30 min.\n" +
-                            "•\tTeam consists of minimum of 1 participant .\n" +
-                            "•\tNo audience participation.\n" +
-                            "•\tNo extra time will be given.\n" +
-                            "•\tAny malpractice like usage of internet or copying is strictly prohibited.\n" +
-                            "\n" +
-                            "STRUCTURE OF CADD :\n" +
-                            "                      Based on time limit with given dimensional rules.\n" +
-                            "\n" +
-                            "STUDENT CO-ORDINATOR:-\n" +
-                            "1. M.VANI -8341380536\n" +
-                            "2. B.SARITHA-9010191374\n";
-
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-
-
-
-                case "Model Making_4" :
-                    text1="PARIYOJANA PRASTUTI";
-                    text="Description:\n" +
+                case "Paper Presentation_4" :
+                    text1="PAPER PRASTUTI";
+                    text="DESCRIPTION:\n" +
                             "\n" +
                             "In this Event , All the participants  have to prepare  any civil structure of their own wish with in a stipulated time period . It is an ultimate opportunity for everyone to exhibit their architectural skills. \n" +
                             "\n" +
@@ -744,7 +639,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Technical Quiz_4" :
                     text1="TAKANEEKE PRASHNOTTAREE";
-                    text="  Description :\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
                             "It’s  high time to get into real time world awareness of what happening around you…come on test your general knowledge skills.\n" +
                             " This quiz  consists of questions on \n" +
@@ -776,7 +671,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Truss Design_4" :
                     text1="TRUSS DESIGN";
-                    text="  Description:\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
                             "This is the Event which brings out the in-depth understanding in all aspects of truss design. All the participants have to prepare  a Truss  with in the given time period . \n" +
                             "\n" +
@@ -808,7 +703,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Quick Survey_4" :
                     text1="TVARITA SAMIKSE";
-                    text="  Description:\n" +
+                    text=" DESCRIPTION:\n" +
                             "\n" +
                             "This is an Event where simple tasks are given to the participants which in turn unveils their knowledge over basics of “SURVEYING” (leveling ,temporary adjustments  of instruments etc..).\n" +
                             "\n" +
@@ -841,80 +736,56 @@ public class TechDescription extends TechRegistration {
 //MECHANICAL ENGINEERING
                 case "Paper Presentation_5" :
                     text1="Paper Presentation";
-                    text="  TechDescription & Regulations\n" +
+                    text=" DESCRIPTION:\n" +
                             "\n" +
-                            "Max of 2 participants will be allowed in a layout_team1.\n" +
+                            "Paper Presentation is all about how you put your topic or present your topic in front of the audience. They see the way you present your topic, he way you put your point, your presentation style, your language and how promptly and effectively you answer their questions. Then you have to prepare the ‘Abstract’\n" +
                             "\n" +
-                            "Abstracts containing not more than 200 words should be mailed to aagama2k16mech@cvsr.ac.in\n" +
                             "\n" +
-                            "One soft copy and 2 hard copies of the full paper are to be submitted at the time of Event.\n" +
+                            "Structure of the event :\n" +
                             "\n" +
-                            "Last date for registration is …..\n" +
+                            "•\tSelect a Thesis and create suitable Abstract. \n" +
+                            "•\tSubmission of Abstract (in a IEEE formatted Word document) for not more than 300 words before review date and mail to aagama.mech2k17@gmail.com ( MS word 2010 is recommended).\n" +
+                            "•\tSelected Participants should submit a Hard copy of the paper with Abstract in IEEE format.\n" +
+                            "•\tWinner is decided by a Selected Delegate invited from respective Head Of Department.\n" +
                             "\n" +
-                            "Selected paper will be intimated by …March, 2016 through e mail ONLY.\n" +
                             "\n" +
-                            "No changes will be accepted once the paper has been submitted.\n" +
+                            "Rules and Regulations :\n" +
                             "\n" +
-                            "Presentation should not exceed 8+2 min followed by question and answer session.\n" +
+                            "•\tMaximum of Two Authors.\n" +
+                            "•\tPresentation should be a maximum of 7 to 10 minutes.\n" +
+                            "•\tBased on the peering review of the abstract, few papers will be selected for presenting the paper.\n" +
+                            "•\tThe oral presentation should be in form of Microsoft Power Point slides to the maximum of 8 to 10 slides.\n" +
+                            "•\tThe presentation is strictly confined to only Technical topics.\n" +
                             "\n" +
-                            "Spot Registration can also be done at the registration desk in the Campus.\n" +
+                            "NUMBER OF DAYS OF EVENT:  2  DAYS \n" +
                             "\n" +
-                            "The decision of the judges shall be final & binding.\n" +
                             "\n" +
-                            "Blow the minds with excellent presentations.....";
+                            " \n" +
+                            "Faculty Coordinators:\n" +
+                            "1. P.Saritha (9949672656)    \n" +
+                            "   Aagama2k17mech@cvsr.ac.in\n" +
+                            "       \n" +
+                            "2. PRIYA DARSHAN (8897725758)\n" +
+                            "   Aagama2k17mech@cvsr.ac.in\n" +
+                            "     \n" +
+                            "\n" +
+                            "Student Coordinators:\n" +
+                            "SADANA \n" +
+                            "E.SRIKANTH\n" +
+                            "\n" +
+                            "\n" +
+                            "\n";
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
 
 
-                case "Velocity_5" :
-                    text1="Velocity";
-                    text="  Description :\n" +
-                            "\n" +
-                            "Each layout_team1 is supposed to Assemble and dissemble the given component in short time of period\n" +
-                            "\n" +
-                            "  TechDescription & Regulations :\n" +
-                            "\n" +
-                            "each layout_team1 can have max of 2 members\n" +
-                            "the presentation should not exceed given time";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
 
 
-                case "Technical Quiz_5" :
-                    text1="Technical Quiz";
-                    text="Competing layout_team1 should comprise of 4 members\n" +
-                            "\n" +
-                            "The quiz consists of 3 rounds, preliminary, video, rapid fire.\n" +
-                            "\n" +
-                            "The questions will be from the listed streams of chemical engg and related subjects:\n" +
-                            "\n" +
-                            "  Mass transfer\n" +
-                            "\n" +
-                            "  Heat transfer\n" +
-                            "\n" +
-                            "  Mechanical unit operations\n" +
-                            "\n" +
-                            "  Momentum transfer\n" +
-                            "\n" +
-                            "  Thermodynamics\n" +
-                            "\n" +
-                            "  C.R.E\n" +
-                            "\n" +
-                            "On the basis of preliminary round 4 teams will be selected for final round\n" +
-                            "\n" +
-                            "Decision of the organizing & expert layout_team1 shall be final\n" +
-                            "\n" +
-                            "Additional description, if any, will be added in the problem set";
-
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
 
 //CHEMICAL ENGINEERING
-
+/*
                 case "Paper Presentation_6" :
                     text1="Paper Presentation";
                     text="  Description :\n" +
@@ -1027,7 +898,7 @@ public class TechDescription extends TechRegistration {
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
-
+*/
 //PHARMACY DEPARTMENT
 
 
@@ -1082,7 +953,7 @@ public class TechDescription extends TechRegistration {
 
                 case "JAM_7" :
                     text1="Just A Minute";
-                    text="Description:\n" +
+                    text="DESCRIPTION:\n" +
                             "\n" +
                             "1.\tA visual clip would be shown to the contestants one at a time.\n" +
                             "2.\t Thirty seconds would be provided to view the clip and plan accordingly in order to present your ideas in an effective and interesting manner. \n" +
@@ -1101,11 +972,31 @@ public class TechDescription extends TechRegistration {
                     break;
 
 
+                case "Anurag Talent Hunt_7" :
+                    text1="Anurag Talent Hunt";
+                    text="DESCRIPTION:\n" +
+                            "\n" +
+                            "1.\tThe Event is a Talent Hunt Competition where various people showcase their talents individually or in pairs or in groups. Each Participant(s) competes against the other Participant(s) and a qualifying Participant(s) shall proceed to the next levels of the competition of the Event, as per the format of the Event.\n" +
+                            "2.\tThis registration process shall be open for the Participant(s) from 1st March 2017  to 16th March 2017.  \n" +
+                            "          \n" +
+                            "\n" +
+                            "NUMBER OF DAYS OF EVENT: One day: 18 March 2017\n" +
+                            "\n" +
+                            "Student Coordinator:\n" +
+                            "1. Anagha (9963003617)\n" +
+                            "2. Shruthi reddy (8341741851)\n" +
+                            "\n  ";
+
+                    tv1.setText(text1);
+                    tv.setText(text);
+                    break;
+
+
 //MBA DEPARTMENT
 
                 case "Paper Presentation_8" :
                     text1="Paper Presentation";
-                    text="  Description:\n" +
+                    text="  DESCRIPTION:\n" +
                             "Paper presentation will improve the thinking horizon of the students besides giving them presentation skills also remove the stage fear from the students and builds confidence.\n" +
                             "•\tNo registration fee \n" +
                             "•\tMaximum two members per team\n" +
@@ -1128,7 +1019,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Poster Presentation_8" :
                     text1="Poster Presentation";
-                    text="  Description:\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
                             "Posters are used to share information that may be used to present quite complex material. The purposes of posters are to report findings, present an argument, and convince the audience.\n" +
                             "\n" +
@@ -1152,7 +1043,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Group Discussion_8" :
                     text1="Connecting brains";
-                    text="  Description:\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
                             "A topic is given to a group to bring up ideas and discussion to know candidate’s personality traits or skills to open up, leave fear, and express all his ideas. \n" +
                             "\n" +
@@ -1179,7 +1070,7 @@ public class TechDescription extends TechRegistration {
 
                 case "Business Plan_8" :
                     text1="Idea Execute";
-                    text="  Description:\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
                             "Encourages student’s entrepreneurial skills.\n" +
                             "\n" +

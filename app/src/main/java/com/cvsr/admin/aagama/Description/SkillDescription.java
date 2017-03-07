@@ -55,15 +55,10 @@ public class SkillDescription extends Activity {
                         "\n" +
                         "STUDENT COORDINATORS:\n" +
                         "\n" +
-                        "R.N.SAITEJA\t(7093142994)\tsaiteja.rangi0615@gmail.com\n" +
-                        "MANIKANDAN\t(9704167184)\tv.mani1996@gmail.com\n" +
-                        "TAFAZUL\t\t(7416246824)\ttafazul29@gmail.com\n" +
-                        "RENO\t\t(8897167047)\trenors93@gmail.com\n" +
-                        "\n" +
-                        "FACULTY COORDINATORS:\n" +
-                        "\n" +
-                        "1. Mr.G.Balaram\n" +
-                        "2. Mr.P.Rajashekhar Reddy\n";
+                        "R.N.SAITEJA\t(7093142994)\n" +
+                        "MANIKANDAN\t(9704167184)\n" +
+                        "TAFAZUL\t\t(7416246824)\n" +
+                        "RENO\t\t(8897167047)\\n" ;
                 tv1.setText(text1);
                 tv.setText(text);
                 break;
@@ -82,11 +77,7 @@ public class SkillDescription extends Activity {
                         "STUDENT COORDINATORS:\n" +
                         "\n" +
                         "1. N.Harsha Vardhan-7793989595\n" +
-                        "2. V.Vivek-8143567726\n" +
-                        "\n" +
-                        "FACULTY COORDINATORS:\n" +
-                        "\n" +
-                        "1. Mr.V.Amarnadh";
+                        "2. V.Vivek-8143567726\n" ;
                 tv1.setText(text1);
                 tv.setText(text);
                 break;

@@ -90,23 +90,14 @@
                 android:layout_margin="10dp"
                 android:onClick="mec"/>
 
-            <ImageButton
-                android:background="@drawable/che_2"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:id="@+id/imageButton7"
-                android:layout_below="@+id/imageButton6"
-                android:layout_centerHorizontal="true"
-                android:clickable="true"
-                android:layout_margin="10dp"
-                android:onClick="che"/>
+
 
             <ImageButton
                 android:background="@drawable/pharm_2"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:id="@+id/imageButton8"
-                android:layout_below="@+id/imageButton7"
+                android:layout_below="@+id/imageButton6"
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:layout_margin="10dp"

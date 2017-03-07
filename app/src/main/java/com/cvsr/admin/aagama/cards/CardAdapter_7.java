@@ -42,6 +42,11 @@ public class CardAdapter_7 extends RecyclerView.Adapter<CardAdapter_7.ViewHolder
        mItems.add(cardSetterGetter);
 
 
+       cardSetterGetter = new CardSetterGetter();
+       cardSetterGetter.setName("Anurag Talent Hunt");
+       cardSetterGetter.setThumbnail(R.drawable.creative);
+       mItems.add(cardSetterGetter);
+
 
 
 
@@ -70,7 +75,7 @@ public class CardAdapter_7 extends RecyclerView.Adapter<CardAdapter_7.ViewHolder
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         int position;
-        String s[]={"Poster Presentation_7","Pharma Quiz_7","JAM_7"};
+        String s[]={"Poster Presentation_7","Pharma Quiz_7","JAM_7","Anurag Talent Hunt_7"};
         public ImageView imgThumbnail;
         public TextView tvMovie;
 
@@ -111,6 +116,12 @@ public class CardAdapter_7 extends RecyclerView.Adapter<CardAdapter_7.ViewHolder
                     context.startActivity(intent);
                     break;
 
+
+                case 3:context = itemView.getContext();
+                    intent = new Intent(context, TechRegistration.class);
+                    intent.putExtra("event", s[3]);
+                    context.startActivity(intent);
+                    break;
 
 
 

@@ -30,26 +30,12 @@ public class CardAdapter_4 extends RecyclerView.Adapter<CardAdapter_4.ViewHolder
        cardSetterGetter.setThumbnail(R.drawable.paper);
        mItems.add(cardSetterGetter);
 
-       cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName("Poster Presentation");
-       cardSetterGetter.setThumbnail(R.drawable.poster);
-       mItems.add(cardSetterGetter);
-
 
        cardSetterGetter = new CardSetterGetter();
        cardSetterGetter.setName("Project Presentation");
        cardSetterGetter.setThumbnail(R.drawable.project);
        mItems.add(cardSetterGetter);
 
-       cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName("CAD");
-       cardSetterGetter.setThumbnail(R.drawable.cad);
-       mItems.add(cardSetterGetter);
-
-       cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName("Model Making");
-       cardSetterGetter.setThumbnail(R.drawable.mode);
-       mItems.add(cardSetterGetter);
 
        cardSetterGetter = new CardSetterGetter();
        cardSetterGetter.setName("Technical Quiz");
@@ -99,7 +85,7 @@ public class CardAdapter_4 extends RecyclerView.Adapter<CardAdapter_4.ViewHolder
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         int position;
-        String s[]={"Paper Presentation_4","Poster Presentation_4","Project Presentation_4","CAD_4","Model Making_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
+        String s[]={"Paper Presentation_4","Project Presentation_4","Technical Quiz_4","Truss Design_4","Quick Survey_4"};
         public ImageView imgThumbnail;
         public TextView tvMovie;
 
@@ -149,23 +135,8 @@ public class CardAdapter_4 extends RecyclerView.Adapter<CardAdapter_4.ViewHolder
                     intent.putExtra("event", s[4]);
                     context.startActivity(intent);
                     break;
-                case 5:context = itemView.getContext();
-                    intent = new Intent(context, TechRegistration.class);
-                    intent.putExtra("event", s[5]);
-                    context.startActivity(intent);
-                    break;
 
-                case 6:context = itemView.getContext();
-                    intent = new Intent(context, TechRegistration.class);
-                    intent.putExtra("event", s[6]);
-                    context.startActivity(intent);
-                    break;
 
-                case 7:context = itemView.getContext();
-                    intent = new Intent(context, TechRegistration.class);
-                    intent.putExtra("event", s[7]);
-                    context.startActivity(intent);
-                    break;
 
 
 
