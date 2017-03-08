@@ -44,7 +44,7 @@ public class FunRegistration extends Activity
     public void reg(View view) {
         switch(p)
         {
-            //cse
+            //cse dep
             case "Selfie Story":
                 in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
                 startActivity(in);
