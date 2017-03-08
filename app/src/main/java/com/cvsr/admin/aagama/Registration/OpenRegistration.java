@@ -35,7 +35,7 @@ public class OpenRegistration extends Activity {
     public void rules(View view) {
 
         in = new Intent(this, OpenDescription.class);
-        in.putExtra("event", s);
+        in.putExtra("event",p);
         startActivity(in);
     }
 

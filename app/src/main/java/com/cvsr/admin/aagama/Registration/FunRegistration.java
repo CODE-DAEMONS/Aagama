@@ -36,7 +36,7 @@ public class FunRegistration extends Activity
     }
     public void rules(View view) {
 
-        in = new Intent(getApplicationContext(),FunDescription.class);
+        in = new Intent(this,FunDescription.class);
         in.putExtra("event",p);
         startActivity(in);
     }

@@ -40,7 +40,7 @@ public class SkillRegistration extends Activity {
     public void rules(View view) {
 
         in = new Intent(this, SkillDescription.class);
-        in.putExtra("event", s);
+        in.putExtra("event",p);
         startActivity(in);
     }
 
