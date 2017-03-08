@@ -59,7 +59,7 @@ public class FunRegistration extends Activity
                 Toast.makeText(getApplicationContext(),"redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
-            //ece dep
+            //ece
             case "Plan It":
                 in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
                 startActivity(in);
