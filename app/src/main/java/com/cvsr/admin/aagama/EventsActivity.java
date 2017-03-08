@@ -10,14 +10,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.cvsr.admin.aagama.Events.TechZone;
-import com.cvsr.admin.aagama.Events.FunZone;
 import com.cvsr.admin.aagama.Events.OpenZone;
 import com.cvsr.admin.aagama.Events.SkillZone;
 
