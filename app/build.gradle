@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.cvsr.admin.aagama"
+        applicationId "com.cvsr.admin.aagama2k17"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
