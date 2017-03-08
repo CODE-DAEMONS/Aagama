@@ -47,7 +47,7 @@ public class TechRegistration extends TechZoneCards {
 
     public void rules(View view) {
 
-        Intent in = new Intent(getApplicationContext(), TechDescription.class);
+        Intent in = new Intent(this, TechDescription.class);
         in.putExtra("event", s);
         startActivity(in);
     }
@@ -55,108 +55,260 @@ public class TechRegistration extends TechZoneCards {
     public void reg(View view) {
 
 
+        switch (s) {
+            case "Paper Presentation":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                startActivity(in);
 
-//COMPUTER SCIENCE AND ENGINEERING
-        if(s.equals(cse[0])||s.equals(cse[1])||s.equals(cse[2])||s.equals(cse[3])||s.equals(cse[4]))
-        {
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
-            startActivity(in);
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Poster Presentation":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                startActivity(in);
 
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Hunt The Code":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Webpage Design":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Dumb Charades":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1i-N2pK7Twf9G7pvbxinOghhfEM0KaJDIn-DL0U6pM-U/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Paper Presentation_1":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Poster Presentation_1":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Project Presentation_1":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Technical Quiz_1":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Paper Presentation_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Poster Presentation_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Project Presentation_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Circuitrix_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Technical Quiz_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Tech Hunt_2":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Paper Presentation_3":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Bug The Bug_3":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Code Cracker_3":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Technical Quiz_3":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Paper Presentation_4":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Project Presentation_4":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Technical Quiz_4":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Truss Design_4":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Quick Survey_4":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Paper Presentation_5":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Poster Presentation_7":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
+            case "Pharma Quiz_7":
+
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
+            case "JAM_7":
+
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
+            case "Anurag Talent Hunt_7":
+
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
+            case "Paper Presentation_8":
+
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Poster Presentation_8":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
+                startActivity(in);
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Group Discussion_8":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Business Plan_8":
+
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
+                startActivity(in);
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
         }
-
-
-//ELECTRONICS ANDCOMMUNICATION ENGINEERING
-        if(s.equals(ece[0])||s.equals(ece[1])||s.equals(ece[2])||s.equals(ece[3])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1pDiWfLZrNoi23ebZnUC5xh_xInKmfaBpjNHgxJ4Ke6A/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-
-
-
-
-
-
-//ELECTRICAL AND ELECTRONICS ENGINEERING
-
-        if(s.equals(eee[0])||s.equals(eee[1])||s.equals(eee[2])||s.equals(eee[3])||s.equals(eee[4])||s.equals(eee[5])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFpKuWBfKWUy1eQ-QyidLSvWHWcYIe15_54oFGpHZnA/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-//INFORMATION TECHNOLOGY
-
-        if(s.equals(it[0])||s.equals(it[1])||s.equals(it[2])||s.equals(it[3])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1bFe446drSnDTrqW7Mgl8-8JbPK9hS50T7nRwkh5j5zE/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-//CIVIL ENGINERING
-
-        if(s.equals(civ[0])||s.equals(civ[1])||s.equals(civ[2])||s.equals(civ[3])||s.equals(civ[4])||s.equals(civ[5])||s.equals(civ[6])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-//MECHANICAL ENGINEERING
-
-        if(s.equals(mec[0])||s.equals(mec[1])||s.equals(mec[2])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1blypr3Cx5XPVZQKkfRKbOZaLWPCIGdSO3KwNZYOfKoY/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-
-
-//CHEMICAL ENGINEERING
-      /*  if(s.equals(che[0])||s.equals(che[1])||s.equals(che[2])||s.equals(che[3])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }*/
-
-
-//PHARMACY DEPARTMENT
-        if(s.equals(pha[0])||s.equals(pha[1])||s.equals(pha[2])||s.equals(pha[3])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
-//MBA DEPARTMENT
-        if(s.equals(mba[0])||s.equals(mba[1])||s.equals(mba[2])||s.equals(mba[3])){
-            in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/10nm4NcaghrFuLQu8ssofpy6-hpYNLgO3UQok3owyazs/edit?usp=sharing"));
-            startActivity(in);
-
-            Toast.makeText(this,"redirected to your web browser",
-                    Toast.LENGTH_LONG).show();
-        }
-
 
     }
-
-
-    //Skill Zone
-
 
 }
