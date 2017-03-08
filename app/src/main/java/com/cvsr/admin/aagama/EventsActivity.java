@@ -170,7 +170,7 @@ onResume();
 
     private class CustomAdapter extends FragmentPagerAdapter {
 
-        private String fragments[] = {"Tech Zone", "Fun Zone", "Open Zone","Skill Zone"};
+        private String fragments[] = {"Tech Zone","Open Zone","Skill Zone"};
 
         public CustomAdapter(FragmentManager supportFragmentManager, Context context) {
             super(supportFragmentManager);
@@ -182,10 +182,8 @@ onResume();
                 case 0:
                     return new TechZone();
                 case 1:
-                    return new FunZone();
-                case 2:
                     return new OpenZone();
-                case 3:
+                case 2:
                     return new SkillZone();
                 default:
                     return null;

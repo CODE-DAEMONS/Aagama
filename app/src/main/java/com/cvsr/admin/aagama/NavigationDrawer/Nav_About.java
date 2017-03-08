@@ -11,12 +11,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.cvsr.admin.aagama.EventsActivity;
+import com.cvsr.admin.aagama.FunZoneActivity;
 import com.cvsr.admin.aagama.R;
 
 
 public class Nav_About extends Fragment implements View.OnClickListener {
     View rootView;
-    TextView t1, t2;
+    TextView t1, t2,b1,b2;
 
 
     public Nav_About() {
@@ -30,9 +31,11 @@ public class Nav_About extends Fragment implements View.OnClickListener {
         rootView = inflater.inflate(R.layout.nav_about, container, false);
 
         initTypeface();
-        TextView b1=(TextView)rootView.findViewById(R.id.cont);
+        b1=(TextView)rootView.findViewById(R.id.cont);
+        b2=(TextView)rootView.findViewById(R.id.cont1);
 
               b1.setOnClickListener(this);
+        b2.setOnClickListener(this);
 
         return rootView;
 
@@ -63,8 +66,16 @@ public class Nav_About extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        Intent in=new Intent(getActivity(),EventsActivity.class);
-        startActivity(in);
+       if(v==b1){
+           Intent in=new Intent(getActivity(),EventsActivity.class);
+           startActivity(in);
+       }
+
+        if(v==b2){
+            Intent in=new Intent(getActivity(), FunZoneActivity.class);
+            startActivity(in);
+        }
+
 
 
     }

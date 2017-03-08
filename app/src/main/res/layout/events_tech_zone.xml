@@ -3,24 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center_horizontal">
+    android:layout_gravity="center_horizontal"
+    android:background="#222222">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#222222">
+        android:layout_height="match_parent"
+
+        android:padding="20dp"
+        android:layout_marginTop="50dp">
 
         <RelativeLayout
 
             android:layout_width="match_parent"
-
-            android:layout_marginBottom="50dp"
             android:layout_height="wrap_content"
             android:weightSum="1"
             android:orientation="horizontal"
             android:layout_gravity="center"
             android:focusable="true"
-            android:layout_marginTop="160dp"
             android:id="@+id/relativeLayout">
 
             <ImageButton
@@ -31,9 +31,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
-                android:layout_margin="10dp"
-                android:layout_marginTop="40dp"
-                android:onClick="cse"/>
+                android:onClick="cse"
+                android:layout_marginTop="150dp"/>
 
             <ImageButton
                 android:background="@drawable/ece_2"
