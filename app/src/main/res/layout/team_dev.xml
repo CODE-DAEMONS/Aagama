@@ -334,7 +334,7 @@
                                 android:layout_marginLeft="35dp"
                                 android:layout_marginStart="24dp"
                                 android:layout_marginTop="20dp"
-                                android:src="@mipmap/mani"
+                                android:src="@drawable/mani"
                                 app:border_color="#FF000000" />
 
 

@@ -430,7 +430,7 @@
                             android:id="@+id/imageView5"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
-                            android:src="@mipmap/satish"
+                            android:src="@drawable/satees"
                             app:border_color="#FF000000" />
 
                         <LinearLayout
@@ -500,7 +500,7 @@
                             android:id="@+id/imageView6"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
-                            android:src="@mipmap/haripriya"
+                            android:src="@drawable/haripriya"
                             app:border_color="#FF000000" />
 
                         <LinearLayout
@@ -581,7 +581,7 @@
                             android:id="@+id/imageView7"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
-                            android:src="@mipmap/santosh"
+                            android:src="@drawable/santosh"
                             app:border_color="#FF000000" />
 
                         <LinearLayout
@@ -651,7 +651,7 @@
                             android:id="@+id/imageView8"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
-                            android:src="@mipmap/naveen"
+                            android:src="@drawable/naveen"
                             app:border_color="#FF000000" />
 
                         <LinearLayout

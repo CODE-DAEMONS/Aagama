@@ -10,27 +10,42 @@
         android:layout_height="match_parent">
 
 
-
         <ImageView
+            android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/backfinal2"
-            android:id="@+id/imageView10"/>
+            android:background="@drawable/backfinal2" />
+
         <RelativeLayout
+            android:id="@+id/r1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="210dp"
-            android:layout_marginBottom="50dp">
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="210dp">
+
             <ImageView
+                android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/aagam_1"
                 android:layout_margin="30dp"
-                android:layout_marginTop="100dp"/>
+                android:layout_marginTop="100dp"
+                android:src="@drawable/aagam_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cr"
+                    android:textColor="#C0C0C0"
+                    android:text="©ALL RIGHTS RESERVED TO CSE DEPT-ANURAG ANDROID CLUB"/>
+            </LinearLayout>
+
 
 
         </RelativeLayout>
-
 
     </FrameLayout>
 

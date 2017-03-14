@@ -20,9 +20,9 @@ import com.cvsr.admin.aagama.Registration.FunRegistration;
 public class FunZoneActivity extends Activity implements View.OnClickListener {
 
     LinearLayout ll1, ll2, ll3, ll4, ll5, ll6, ll7, ll8, ll9, ll10, ll11, ll12, ll13, ll14, ll15;
-    ImageView m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15;
+    ImageView m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15,m16,m17;
     Intent obj;
-    String s[] = {"Selfie Story", "Pie Face Challenge", "Plan It", "Logo Quiz", "Investments", "Scary House", "Treasure Hunt", "Dubsmash", "Brain Twister", "Minute To WIn It", "Crack It", "Filmy Quiz", "Halloween", "Do Or  Die", "Ulta Palta"};
+    String s[] = {"Selfie Story", "Pie Face Challenge", "Plan It", "Logo Quiz", "Investments", "Scary House", "Treasure Hunt", "Dubsmash", "Brain Twister", "Minute To WIn It", "Crack It", "Filmy Quiz", "Halloween", "Do Or  Die", "Ulta Palta","Smoothi","Cricket"};
 
 
     @Override
@@ -46,6 +46,9 @@ public class FunZoneActivity extends Activity implements View.OnClickListener {
         m13 = (ImageView)findViewById(R.id.hallo);
         m14 = (ImageView)findViewById(R.id.hang);
         m15 = (ImageView)findViewById(R.id.ulta);
+        m16 = (ImageView)findViewById(R.id.Smoothi);
+        m17 = (ImageView)findViewById(R.id.Cricket);
+
 
 
         m1.setImageResource(R.drawable.selfie);
@@ -63,6 +66,9 @@ public class FunZoneActivity extends Activity implements View.OnClickListener {
         m13.setImageResource(R.drawable.halloween);
         m14.setImageResource(R.drawable.hangman);
         m15.setImageResource(R.drawable.ulta);
+        m16.setImageResource(R.drawable.cup);
+        m17.setImageResource(R.drawable.cricket);
+
 
         ll1 = (LinearLayout)findViewById(R.id.l1);
         ll2 = (LinearLayout)findViewById(R.id.l2);

@@ -200,11 +200,51 @@ public class OpenDescription extends Activity{
 
             case "Check Your IQ":
             text1="Check Your IQ";
-            text="STUDENT COORDINATORS:\n" +
+            text="About the game:\n" +
                     "\n" +
-                    "K.Ramya-9490827927\n" +
+                    "   Hear the game is to know the ability of the persons, and the way to tackle the rounds. In all the logical, general and time span of accuracy in  problem solving skills.\n" +
                     "\n" +
-                    "FACULTY COORDINATORS:\n";
+                    "\n" +
+                    "Objectives:\n" +
+                    "\n" +
+                    "These are three rounds\n" +
+                    "\n" +
+                    "•\tFirstly, revealing letters.\n" +
+                    "•\tSecond, aptitude test.\n" +
+                    "•\tFinally, overall general question.\n" +
+                    "\n" +
+                    "\n" +
+                    "First round(reveal letters):\n" +
+                    "\n" +
+                    "•\tFirst round is to fill the missing letters in the given word. \n" +
+                    "•\tWord can be of any type.\n" +
+                    "\n" +
+                    "\n" +
+                    "Second round(aptitude):\n" +
+                    "\n" +
+                    "•\tLogical reasoning questions will be given.\n" +
+                    "•\tThey have to  answer  and explain the logic.\n" +
+                    "\n" +
+                    "\n" +
+                    "Third round(general questions):\n" +
+                    "\n" +
+                    "•\tEpics, general affairs, computer knowledge, history of India, basic questions.\n" +
+                    "\n" +
+                    "\n" +
+                    "Rules and regulations:\n" +
+                    "\n" +
+                    "•\tTheir should not be discussion between groups.\n" +
+                    "•\tTime limit is maintained.\n" +
+                    "\n" +
+                    "\n" +
+                    "Mobiles, calculators and any electric devices are not used in the session.    \n" +
+                    "\n" +
+                    "\n" +
+                    "Coordinators\n" +
+                    "K.Ramya-9490827967\n" +
+                    "D.Manjula-8520837701\n" +
+                    "Ch. .supriya-9100437310\n" +
+                    "M. Bhavani-8142973693 \n";
             tv1.setText(text1);
             tv.setText(text);
             break;
