@@ -58,7 +58,7 @@ public class SkillDescription extends Activity {
                         "R.N.SAITEJA\t(7093142994)\n" +
                         "MANIKANDAN\t(9704167184)\n" +
                         "TAFAZUL\t\t(7416246824)\n" +
-                        "RENO\t\t(8897167047)\\n" ;
+                        "RENO\t\t(8897167047)" ;
                 tv1.setText(text1);
                 tv.setText(text);
                 break;

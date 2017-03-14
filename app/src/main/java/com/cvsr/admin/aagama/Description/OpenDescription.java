@@ -140,35 +140,30 @@ public class OpenDescription extends Activity{
             tv.setText(text);
             break;
 
-            case "Minute  To Win It":
-            text1="Minute  To Win It";
-            text="DESCRIPTION:\n" +
+            case "Dumb Charads":
+            text1="Dumb Charads";
+            text="Come on! Let’s learn technical words adding some more fun. The game goes like this…..\n" +
                     "\n" +
-                    "It’s a time to show your hidden talent in technical (coding) and non-technical (game zone) through which you can have fun and win exclusive prizes.\n" +
-                    "The quiz consists of \n" +
-                    "1. Technical (coding)\n" +
-                    "2. Non-technical (game zone)\n" +
                     "\n" +
-                    "RULES:\n" +
+                    "RULES\n" +
+                    "•\tEach team consists of 3 members.\n" +
+                    "•\tThe game will have three levels.\n" +
+                    "•\tThe participants are not allowed to use any electronic gadgets.\n" +
                     "\n" +
-                    "1. A team shall consist of two members.\n" +
-                    "2. Once the team members are finalized no changes will be made further.\n" +
-                    "3. The participants will not be allowed to use mobile phones.\n" +
-                    "4. Complexity of questions will increase level by level.\n" +
                     "\n" +
-                    "Structure of the game:\n" +
-                    "The game consists of 5 levels of Technical and Non-Technical Levels\n" +
-                    "1. Simple\n" +
-                    "2. Easy\n" +
-                    "3. Medium\n" +
-                    "4. Tough\n" +
-                    "5. Complex\n" +
+                    "STRUCTURE\n" +
                     "\n" +
-                    "STUDENT COORDINATORS:\n" +
+                    "LEVEL 1: They need to pickup one slip and enact the word within the time limit.\n" +
+                    "LEVEL 2: In this level they can enact how many words they can.\n" +
+                    "LEVEL 3: In this level in given time they should enact one word and  should tell application on that particular word.\n" +
                     "\n" +
-                    "1. R.Roja Romani- 9700819970\n" +
-                    "2. A.Kaveri -7729091462\n" +
-                    "3. P.umeshchandra-9866239639\n";
+                    "\n" +
+                    "Based on this teams are selected and will be awarded the prize money.\n" +
+                    "\n" +
+                    "\n" +
+                    "EVENT CO-ORDINATORS\n" +
+                    "CH.MAMATHA (7396509393)\n" +
+                    "B.SOWMYA (9951830016)\n";
             tv1.setText(text1);
             tv.setText(text);
             break;

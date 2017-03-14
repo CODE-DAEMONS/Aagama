@@ -54,10 +54,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
        cardSetterGetter.setThumbnail(R.drawable.web);
        mItems.add(cardSetterGetter);
 
-       cardSetterGetter = new CardSetterGetter();
-       cardSetterGetter.setName(s[4]);
-       cardSetterGetter.setThumbnail(R.drawable.dumb);
-       mItems.add(cardSetterGetter);
+
 
 
 
@@ -104,7 +101,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
        int position;
-        String s[]={"Paper Presentation","Poster Presentation","Hunt The Code","Webpage Design","Dumb Charades"};
+        String s[]={"Paper Presentation","Poster Presentation","Hunt The Code","Webpage Design"};
        public ImageView imgThumbnail;
        public TextView tvMovie;
 
@@ -149,11 +146,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
                     intent.putExtra("event", s[3]);
                     context.startActivity(intent);
                     break;
-                case 4:context = itemView.getContext();
-                    intent = new Intent(context, TechRegistration.class);
-                    intent.putExtra("event", s[4]);
-                    context.startActivity(intent);
-                    break;
+
 
             }
         }

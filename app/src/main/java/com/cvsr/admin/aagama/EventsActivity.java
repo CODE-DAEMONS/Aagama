@@ -24,7 +24,7 @@ public class EventsActivity extends AppCompatActivity{
 
 
 
-    ImageButton cse,ece,eee,it,civ,mec,pharm,mba;   //TechZone
+    ImageButton cse,ece,eee,it,civ,mec,che,pharm,mba;   //TechZone
     TabLayout tablayout;
     ViewPager viewpager;
     Intent obj;
@@ -136,14 +136,14 @@ onResume();
         startActivity(in1);
     }
 
-/*
+
     public void che(View view) {
 onResume();
         che = (ImageButton) findViewById(R.id.imageButton3);
         Intent in1 = new Intent(EventsActivity.this, TechZoneCards.class);
         in1.putExtra("name", "che");
         startActivity(in1);
-    }*/
+    }
 
 
     public void pharm(View view) {
@@ -168,7 +168,7 @@ onResume();
 
     private class CustomAdapter extends FragmentPagerAdapter {
 
-        private String fragments[] = {"Tech Zone","Open Zone","Skill Zone"};
+        private String fragments[] = {"Tech Zone","Skill Zone","Open Zone"};
 
         public CustomAdapter(FragmentManager supportFragmentManager, Context context) {
             super(supportFragmentManager);
@@ -180,9 +180,9 @@ onResume();
                 case 0:
                     return new TechZone();
                 case 1:
-                    return new OpenZone();
-                case 2:
                     return new SkillZone();
+                case 2:
+                    return new OpenZone();
                 default:
                     return null;
             }

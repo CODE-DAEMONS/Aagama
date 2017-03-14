@@ -235,6 +235,31 @@ public class TechRegistration extends TechZoneCards {
                 Toast.makeText(this, "redirected to your web browser",
                         Toast.LENGTH_LONG).show();
                 break;
+
+            case "Paper Presentation_6":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+            case "Poster Presentation_6":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+            case "Model Making_6":
+                in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1XLyU6Ym7AyGVEv6xs0j-KwblrAo7lZdlloeGd2XKIMc/edit?usp=sharing"));
+                startActivity(in);
+
+                Toast.makeText(this, "redirected to your web browser",
+                        Toast.LENGTH_LONG).show();
+                break;
+
+
             case "Poster Presentation_7":
                 in = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://docs.google.com/forms/d/1Wl88EpVgYthcVF7ZJVi04Y84Oyko7SdrePia1Tuet5I/edit?usp=sharing"));
                 startActivity(in);

@@ -20,7 +20,7 @@ public class OpenZone extends Fragment implements View.OnClickListener{
     View view;
     CardView k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,k21,k22,k23;  //OpeZzone
     Intent obj;
-    String s[]={"App Challenge","All Round Quiz","4-Pics-1-Word","Minute  To Win It","Cyber Chase","Check Your IQ","R.C.Racing","Junk Yard","Ram and Rom","Puzzle","JAM","Innovatia","Virtual Job Fair","Model Making","Memory Game","Poster Presentation","Sketch Up","Invasion","Velocity","Minute To Win It","Second To Say","Tug Of War","Spell Bee"};
+    String s[]={"App Challenge","All Round Quiz","4-Pics-1-Word","Dumb Charads","Cyber Chase","Check Your IQ","R.C.Racing","Junk Yard","Ram and Rom","Puzzle","JAM","Innovatia","Virtual Job Fair","Model Making","Memory Game","Poster Presentation","Sketch Up","Invasion","Velocity","Minute To Win It","Second To Say","Tug Of War","Spell Bee"};
 
     @Nullable
     @Override

@@ -181,7 +181,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#8C1717"
-                        android:text="MINUTE TO WIN IT"
+                        android:text="DUMB CHARADS"
                         android:textColor="#ffffff" />
 
                     <LinearLayout
@@ -195,7 +195,7 @@
                             android:id="@+id/poster4"
                             android:layout_width="75dp"
                             android:layout_height="75dp"
-                            android:src="@drawable/minute" />
+                            android:src="@drawable/dumb" />
 
                         <TextView
                             android:layout_width="match_parent"

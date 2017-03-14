@@ -785,35 +785,47 @@ public class TechDescription extends TechRegistration {
 
 
 //CHEMICAL ENGINEERING
-/*
+
                 case "Paper Presentation_6" :
                     text1="Paper Presentation";
-                    text="  Description :\n" +
+                    text=" Description:\n" +
                             "\n" +
-                            "Ignite the grey matter and explore the thousands of ideas within. We value what’s truly yours. Well, that’s what research is all about.\n" +
                             "\n" +
-                            "  TechDescription & Regulations:\n" +
+                            "“ALL THE THINGS ARE DIFFICULT, BEFORE THEY ARE EASY”\n" +
+                            "-Thomas Fuller\n" +
                             "\n" +
-                            "1.Maximum number of participants in a layout_team1 is 2.\n" +
                             "\n" +
-                            "2.Abstract should not exceed 1 page and paper should not exceed 15 pages.\n" +
+                            "All you need is to fuel your brain to ignite the ideas that never existed. The planet is all yours and come up with a spark of innovation. Hope you fulfill the expectation in the form of PAPER PRESENATION.\n" +
                             "\n" +
-                            "3.Soft copies of the submitted paper and PowerPoint presentation must be in .docx format.\n" +
                             "\n" +
-                            "4.Please bring 2 hardcopies of the submitted paper on the day of the event.\n" +
+                            "Rules and Regulations\n" +
                             "\n" +
-                            "5.The layout_team1 will get 10 minutes for presentation followed by Queries (7+3).\n" +
+                            ".\tEach team should comprise a maximum of 3 members.Spot registrations are also accepted.\n" +
+                            ".\tThe time span of presentation is 8+2, (8min for presentation & 2min for queries).\n" +
+                            ".       Two hard copies of the complete paper must be given on the day of presentation.\n" +
+                            ".\tOne soft copy of the presentation should be brought along with the candidates, in a pen drive or a compact disk.\n" +
+                            ".\tThe abstract should be relevant to chemical engineering and Abstracts should be mailed to aagama2k17chem@cvsr.ac.in.\n" +
+                            ".\tThe subject of the mail should be “Paper Presentation”, “Your Topic”, “Branch of study”.The paper should be strictly in IEEE format, not exceeding 15 pages.\n" +
+                            ".\tIf the work is a review, then it will be allowed to be presentation only on acknowledgement of the relevant authors.\n" +
+                            ".\tCross college teams are also allowed with valid ID proof.\n" +
                             "\n" +
-                            "6.Persons from different institution can be a part of same layout_team1. However, one person may not be a part of multiple teams for the same event.\n" +
                             "\n" +
-                            "7.Paper should be in one IEEE format.\n" +
+                            "\tThe abstract must strictly be in the specified format-\n" +
                             "\n" +
-                            "8.Abstracts must be sent in on or before 12/3/2016 to mailed :aagama2k16chemical@cvsr.ac.in.\n" +
+                            ".\tPaper size: A4\n" +
+                            ".\tLine Spacing: 1.5”\n" +
+                            ".\tAll Margins : 1”\n" +
+                            ".\tMain Title : All Capitals, Bold, Left-justified , Times New Roman -14\n" +
+                            ".\tText: Times New Roman-12 Justified.\n" +
+                            ".\tPreferred format is .docx or .pdf\n" +
                             "\n" +
-                            "  Event Cordinators :\n" +
                             "\n" +
-                            "Narasimha -9032022728\n" +
-                            "Aravind     -9490099309";
+                            "Other topics of allied fields are also accepted, provided that they are related to the branch.\n" +
+                            "\n" +
+                            "\n" +
+                            "Event Co- Ordinators: \n" +
+                            "SADANA (7036431858)\n" +
+                            "E.SRIKANTH ";
 
                     tv1.setText(text1);
                     tv.setText(text);
@@ -821,84 +833,62 @@ public class TechDescription extends TechRegistration {
 
                 case "Poster Presentation_6" :
                     text1="Poster Presentation";
-                    text="  Description :\n" +
+                    text="  DESCRIPTION:\n" +
                             "\n" +
-                            "Show the world what wonder an engineer can do\n" +
                             "\n" +
-                            "  TechDescription & Regulations :\n" +
+                            "A picture speaks a thousand words indeed! Visual appeal + Good Presentation = Winning Combination!\n" +
                             "\n" +
-                            "1.College ID card is mandatory.\n" +
                             "\n" +
-                            "2.A poster related to chemical Engineering should be presented.\n" +
+                            "Rules and Regulations:\n" +
                             "\n" +
-                            "3.Each layout_team1 comprises maximum of 4 members.\n" +
                             "\n" +
-                            "4.Poster should be done and brought up to present.\n" +
+                            "1.\tEach team comprises maximum of 2 members.\n" +
+                            "2.\tOne hard copy should be submitted on the day of presentation.\n" +
+                            "3.\tThe abstracts should be relevant to the topics specified.\n" +
+                            "4.\tCollege ID cards are mandatory.\n" +
+                            "5.\tCross college teams are also allowed with valid ID-proof.\n" +
+                            "6.\tThe decision of the organizers is final and binding.\n" +
+                            "7.\tThe final poster is to be in the form of a flexi, with standard dimensions of 2.5' by 2.5'. (Charts are also accepted but higher priority will be given for flexi).\n" +
+                            "8.\tPlagiarism is strictly prohibited; points will be awarded based on the extent of innovativeness, presentation and skill.\n" +
+                            "9.\tIf the work is a review, then it will be allowed to be presented only on acknowledgment of the relevant authors.\n" +
+                            "10.\tSpot registrations are also accepted.\n" +
                             "\n" +
-                            "5.Poster should be innovative.\n" +
                             "\n" +
-                            "6.Best poster will be awarded.\n" +
+                            "Other topics are acceptable, provided they are related to the branch.\n" +
                             "\n" +
-                            "  Event Cordinators :\n" +
-                            "\n" +
-                            "Bindu -7893311247\n" +
-                            "Ganesh -9652239140";
+                            "Event Co- Ordinators: \n" +
+                            "SAI SRI (9705254606)\n" +
+                            "MANASWINI (9502496558)";
 
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
 
 
-                case "Compound Preparation_6" :
-                    text1="Compound Preparation";
-                    text="  Description :\n" +
+                case "Model Making_6" :
+                    text1="Model Making";
+                    text="  RULES\n" +
                             "\n" +
-                            "It is all about synthesis,purification,drying,weighing of compound with the help of given standard procedure.best yielding compound will be prized .\n" +
+                            "1.\tOnly prepared models are accepted, models should be prepared before hand and should be brought to the event at their own risk.\n" +
+                            "2.\tMaximum number of participants per model is three.\n" +
+                            "3.\tWorking models will be appreciable.\n" +
+                            "4.\tTime is not given to prepare the model at the place of presentation.\n" +
+                            "5.\tComplete process model should be clearly explained.\n" +
+                            "6.\tPresentation should be for 5minutes followed by queries for 2minutes.\n" +
                             "\n" +
-                            "  TechDescription & Regulations :\n" +
+                            "***EXCITING CASH PRIZES FOR THE WINNERS***\n" +
                             "\n" +
-                            "1.College ID is mandatory.\n" +
                             "\n" +
-                            "2.Standard procedure will be provided.\n" +
-                            "\n" +
-                            "3.Nav_Team consists of 2 members.\n" +
-                            "\n" +
-                            "4.No extra time is given.\n" +
-                            "\n" +
-                            "5.Any malpractices like using internet or other technology is strictly prohibited, in case students are eliminated on spot.\n" +
-                            "\n" +
-                            "  Event Cordinators :\n" +
-                            "\n" +
-                            "Dinesh -7306589436\n" +
-                            "Janaki-9160821060";
+                            "Event Co- Ordinators: \n" +
+                            "SADANA (7036431858)\n" +
+                            "E.SRIKANTH ";
                     tv1.setText(text1);
                     tv.setText(text);
                     break;
 
 
-                case "Technical Quiz_6" :
-                    text1="Technical Quiz";
-                    text="  Description :\n" +
-                            "\n" +
-                            "Knock Knock? Whos there? A question.\n" +
-                            "\n" +
-                            "  TechDescription & Regulations :\n" +
-                            "\n" +
-                            "1.College ID card is mandatory.\n" +
-                            "\n" +
-                            "2.Each layout_team1 comprises maximum of 2 members.\n" +
-                            "\n" +
-                            "3.Number of Rounds will be decided on spot\n" +
-                            "\n" +
-                            "The layout_team1 which clears all the rounds will be the winner\n" +
-                            "\n" +
-                            "  Event Cordinators :\n" +
-                            "\n" +
-                            "Kalyan -7842224648\n";
-                    tv1.setText(text1);
-                    tv.setText(text);
-                    break;
-*/
+
+
 //PHARMACY DEPARTMENT
 
 
